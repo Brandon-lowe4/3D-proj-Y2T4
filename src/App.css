@@ -1,0 +1,176 @@
+@font-face {
+  font-family: "Plus Jakarta Sans";
+  src: url("/fonts/PlusJakartaSans-Regular.ttf");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Plus Jakarta Sans";
+  src: url("/fonts/PlusJakartaSans-Medium.ttf");
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "Plus Jakarta Sans";
+  src: url("/fonts/PlusJakartaSans-light.ttf");
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: "Nata Sans";
+  src: url("/fonts/NataSans-Medium.ttf");
+  font-weight: 500;
+}
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  user-select: none;
+}
+
+:root{
+  background-color: #161616;
+}
+
+.nav-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 10;
+  background-color: transparent;
+  padding-top: 32px;
+}
+
+.nav-links {
+  display: flex;
+  justify-content: center;
+  gap: 170px
+}
+
+.nav-links a{ 
+  color: white;
+  font-family: "Plus Jakarta Sans";
+  font-weight: 400;
+  font-size: 20px;
+}
+
+h1 {
+  font-family: "Plus Jakarta Sans";
+  font-weight: 400;
+  font-size: 96px;
+  color: white;
+}
+
+h2 {
+  font-family: "Nata Sans";
+  font-size: 48px;
+  font-weight:500;
+  color: white;
+}
+
+h3 {
+  font-family: "Plus Jakarta Sans";
+  font-size: 200px;
+  font-weight:500;
+  color: white;
+}
+
+p {
+  font-family: "Nata Sans";
+  font-weight: 500;
+  font-size: 24px;
+  color: white;
+}
+
+.scene-2, .scene-3, .scene-4 {
+  height: 150vh;
+}
+
+.nav-links a[aria-current="page"] {
+  text-decoration: underline;
+  text-underline-offset: 8px;
+}
+
+.hero {
+  position: relative;
+  height: 150vh;
+}
+
+.hero-image {
+  position: absolute;
+  bottom: 0;
+  margin-bottom: 10vh;
+}
+
+.text-container {
+  margin-left: 122px;
+  margin-right: 122px;
+}
+
+.hero-text {
+  position: absolute;
+  max-width:1196px;
+  display: flex;
+  gap: 40px;
+
+  top: 15%
+}
+
+.highlight-letter-C{
+  color:#FF4C4C
+}
+.highlight-letter-O{
+  color:#5E5EFF
+}
+.highlight-letter-L{
+  color:#FF9C1B
+}
+.highlight-letter-R{
+  color:#FFF71B
+}
+
+.scene-2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.scene-3 {
+  position:relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.scene-3 h3 {
+  position: relative;
+  z-index: 1;
+}
+
+.scene-3 .model-canvas {
+  position: absolute;
+  z-index: 2;
+}
+
+
+
+.arrDown{
+  animation: anime infinite 1.5s linear;
+}
+
+@keyframes anime {
+  0%{
+    transform: translateY(-10px);
+  }
+  50%{
+    transform: translateY(5px);
+  }
+  100%{
+    transform: translateY(-10px);
+  }
+  
+}
