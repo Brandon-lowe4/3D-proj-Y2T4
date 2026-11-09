@@ -20,6 +20,7 @@ export function Trees(props) {
         color="#ffffff"
         position={[0.376, 11.9, -3.665]}
       />
+      
       <group position={[0.337, 1.946, 0.59]} rotation={[0, 0.005, 0]}>
         <mesh
           castShadow

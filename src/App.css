@@ -12,7 +12,7 @@
 
 @font-face {
   font-family: "Plus Jakarta Sans";
-  src: url("/fonts/PlusJakartaSans-light.ttf");
+  src: url("/fonts/PlusJakartaSans-Light.ttf");
   font-weight: 300;
 }
 
@@ -23,7 +23,7 @@
 }
 
 
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -31,7 +31,7 @@
   user-select: none;
 }
 
-:root{
+:root {
   background-color: #161616;
 }
 
@@ -51,7 +51,7 @@
   gap: 170px
 }
 
-.nav-links a{ 
+.nav-links a {
   color: white;
   font-family: "Plus Jakarta Sans";
   font-weight: 400;
@@ -68,14 +68,23 @@ h1 {
 h2 {
   font-family: "Nata Sans";
   font-size: 48px;
-  font-weight:500;
+  font-weight: 500;
   color: white;
+  max-width: 60vw;
+  text-align: center;
 }
 
 h3 {
   font-family: "Plus Jakarta Sans";
   font-size: 200px;
-  font-weight:500;
+  font-weight: 500;
+  color: white;
+}
+
+h4 {
+  font-family: "Plus Jakarta Sans";
+  font-size: 80px;
+  font-weight: 300;
   color: white;
 }
 
@@ -84,10 +93,7 @@ p {
   font-weight: 500;
   font-size: 24px;
   color: white;
-}
-
-.scene-2, .scene-3, .scene-4 {
-  height: 150vh;
+  opacity: 80%;
 }
 
 .nav-links a[aria-current="page"] {
@@ -98,6 +104,23 @@ p {
 .hero {
   position: relative;
   height: 150vh;
+}
+
+.hero-pre-2000s-section {
+  height: 200vh;
+  background-color: #C5C5C5;
+}
+
+.pre-2000s-sticky {
+  position: sticky;
+  top: 0;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.pre-2000s-sticky .hero-image {
+  bottom: 0;
+  margin-bottom: 0;
 }
 
 .hero-image {
@@ -113,64 +136,214 @@ p {
 
 .hero-text {
   position: absolute;
-  max-width:1196px;
+  max-width: 1196px;
   display: flex;
   gap: 40px;
 
   top: 15%
 }
 
-.highlight-letter-C{
-  color:#FF4C4C
+.highlight-letter-C {
+  color: #FF4C4C
 }
-.highlight-letter-O{
-  color:#5E5EFF
+
+.highlight-letter-O {
+  color: #5E5EFF
 }
-.highlight-letter-L{
-  color:#FF9C1B
+
+.highlight-letter-L {
+  color: #FF9C1B
 }
-.highlight-letter-R{
-  color:#FFF71B
+
+.highlight-letter-R {
+  color: #FFF71B
 }
 
 .scene-2 {
+  position: relative;
+}
+
+.scene-6-9 {
+  justify-content: center;
+  align-items: center;
+}
+
+.scene-2-sticky,
+.scene-6-9 {
+  position: sticky;
+  top: 0;
+  height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.scene-3 {
-  position:relative;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.scene-after-grey .scene-2-sticky {
+  overflow: hidden;
 }
 
-.scene-3 h3 {
+.scene-after-grey .hero-image {
+  inset: 0;
+  margin: 0;
+  z-index: 0;
+}
+
+.scene-after-grey .hero-image img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.scene-after-grey h2 {
   position: relative;
   z-index: 1;
+  width: 70vw;
+  text-align: center;
 }
 
-.scene-3 .model-canvas {
+.scene-2,
+.scene-3,
+.scene-4,
+.scene-5,
+.scene-6-9 {
+  height: 200vh;
+}
+
+.scene-3-grey {
+  height: 200vh;
+  background-color: #C5C5C5;
+}
+
+.scene-4,
+.scene-4-sticky {
+  background-color: #fff;
+}
+
+.scene-4 h3 {
+  color: #000;
+}
+
+.scene-5,
+.scene-5-sticky {
+  background-color: #C5C5C5;
+}
+
+.scene-5 h3 {
+  color: #000;
+  top: -10vh;
+}
+
+.hero-pre-2000s-section+.scene-3-grey,
+.scene-3-grey+.scene-3-grey {
+  margin-top: -1px;
+}
+
+.scene-3 h3,
+.scene-4 h3,
+.scene-5 h3 {
+  position: relative;
+  z-index: 1;
+  top: -15vh;
+}
+
+.scene-3 .model-canvas,
+.scene-4 .model-canvas,
+.scene-5 .model-canvas {
   position: absolute;
+
+  width: 100vw;
+  height: 100vh;
   z-index: 2;
 }
 
+.scene-3-sticky,
+.scene-4-sticky,
+.scene-5-sticky {
+  position: sticky;
+  height: 100vh;
+  top: 0;
 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
-.arrDown{
+.text-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.two-column .text-container {
+  margin: 0;
+  align-items: flex-start;
+  text-align: left;
+}
+
+.two-column {
+  display: flex;
+  gap: 74px;
+  width: 1197px;
+}
+
+.car-png {
+  width: 585px;
+  height: auto;
+  flex-shrink: 0;
+  object-fit: contain;
+}
+
+.light-png {
+  height: 638px;
+  width: 585px;
+  flex-shrink: 0;
+  object-fit: contain;
+}
+
+#hero2-p {
+  width: 537px;
+  color: black;
+}
+
+#hero2h1 {
+  color: black;
+}
+
+#hero2-text {
+
+  display: flex;
+  flex-direction: row;
+  gap: 70px;
+  padding-top: 10vh;
+}
+
+.black-p {
+  color: black;
+}
+
+.h4-pre2000s {
+  color: black;
+}
+
+.highlight-word-drone {
+  color: yellow;
+}
+
+.arrDown {
   animation: anime infinite 1.5s linear;
 }
 
 @keyframes anime {
-  0%{
+  0% {
     transform: translateY(-10px);
   }
-  50%{
+
+  50% {
     transform: translateY(5px);
   }
-  100%{
+
+  100% {
     transform: translateY(-10px);
   }
-  
+
 }
