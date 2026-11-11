@@ -215,7 +215,7 @@ function HomePage() {
               <span className="highlight-letter-O">O</span>
               <span className="highlight-letter-R">R</span>
             </h1>
-            <img src="/public/images/line 1.png" alt="Line 1" />
+            <img src="/images/Line%201.png" alt="Line 1" />
             <p>The pre 2000s embraced bold and bright colour palettes. Now this has completely flipped, minimalism has taken over and colour has faded away from our environments.</p>
           </div>
         </div>
