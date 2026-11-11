@@ -7,7 +7,6 @@ import { Model as WhiteCarModel } from "./white-car.jsx";
 import { Model as GreyCarModel } from "./grey-car.jsx";
 
 
-
 const start = { x: 0.45, y: -0.8, z: 9 };
 const end = { x: 0.1, y: 1.6, z: 7 };
 const Scene = ({ progress, carColor = "black" }) => {
@@ -25,36 +24,6 @@ const Scene = ({ progress, carColor = "black" }) => {
         gsap.to(cam.current.position, { z: t.z, duration: 0.5, overwrite: true });
     }, [progress]);
 
-    // const cameraRef = useRef(null);
-
-    // useEffect(() => {
-    //     const positions = [
-    //     //     [10, 1, 7.6],
-    //     //     [1, -.1, 6.6],
-    //     // ];
-
-    //     // const segmentProgress = 1 / (positions.length - 1);
-    //     // const segmentIndex = Math.min(
-    //     //     Math.floor(progress / segmentProgress),
-    //     //     positions.length - 2,
-    //     // );
-    //     // const percentage = (progress - segmentIndex * segmentProgress) / segmentProgress;
-    //     // const [startX, startY, startZ] = positions[segmentIndex];
-    //     // const [endX, endY, endZ] = positions[segmentIndex + 1];
-
-    //     // const tween = gsap.to(cameraRef.current.position, {
-    //     //     x: startX + (endX - startX) * percentage,
-    //     //     y: startY + (endY - startY) * percentage,
-    //     //     z: startZ + (endZ - startZ) * percentage,
-    //     //     duration: 0.5,
-    //     //     ease: "power1.out",
-    //     //     overwrite: true,
-    //     //     onUpdate: () => cameraRef.current.lookAt(0, 0, 0),
-    //     // });
-
-    //     // return () => tween.kill();
-    // }, [progress]);
-
     return (
         <>
             <PerspectiveCamera
@@ -65,17 +34,6 @@ const Scene = ({ progress, carColor = "black" }) => {
                 makeDefault
                 position={[0, 0, start.z]}
             />
-
-            {/* <OrbitControls
-                makeDefault
-                target={[0, 0, 0]}
-
-
-                onChange={() => {
-                    console.log(cameraRef.current.position.toArray());
-               }}          
-            /> */}
-
             <Environment preset="city" />
             <group ref={car} position={[0, -.5, 0]}>
                 <Center>
@@ -85,5 +43,4 @@ const Scene = ({ progress, carColor = "black" }) => {
         </>
     )
 }
-
 export default Scene

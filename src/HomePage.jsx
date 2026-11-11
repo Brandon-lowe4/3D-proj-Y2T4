@@ -1,10 +1,11 @@
-import { useRef, useEffect, Suspense, useState } from "react";
+import { useRef, useEffect, useLayoutEffect, Suspense, useState } from "react";
 import "./App.css";
 import { Canvas } from "@react-three/fiber";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import Scene from "./scene.jsx";
 import { Html } from "@react-three/drei";
+import DronePage from "./DronePage.jsx";
 
 gsap.registerPlugin(ScrollTrigger)
 
@@ -23,6 +24,14 @@ function HomePage() {
   const [whiteProgress, setWhiteProgress] = useState(0);
   const scene5Ref = useRef(null);
   const [greyProgress, setGreyProgress] = useState(0);
+
+  useLayoutEffect(() => {
+    if (window.location.hash !== "#drone-experience") return undefined;
+
+    document.getElementById("drone-experience")?.scrollIntoView({
+      behavior: "instant",
+    });
+  }, []);
 
   useEffect(() => {
     const createTextEntrance = (
@@ -122,6 +131,7 @@ function HomePage() {
     gsap.timeline({
       scrollTrigger: {
         trigger: mainRef.current,
+        endTrigger: finalTextRef.current.closest(".scene-2"),
         start: "top top",
         end: "bottom bottom",
         scrub: 1,
@@ -206,7 +216,7 @@ function HomePage() {
               <span className="highlight-letter-R">R</span>
             </h1>
             <img src="/public/images/line 1.png" alt="Line 1" />
-            <p>The pre 2000s embraced bold and bright color palettes. Now this has completely flipped, minimalism has taken over and color has faded away from our environments.</p>
+            <p>The pre 2000s embraced bold and bright colour palettes. Now this has completely flipped, minimalism has taken over and colour has faded away from our environments.</p>
           </div>
         </div>
         <div className="hero-image">
@@ -216,7 +226,7 @@ function HomePage() {
 
       <section className="scene-2">
         <div className="scene-2-sticky">
-          <h2 ref={scene2TextRef}>Bright colors have disappeared and reduced to...</h2>
+          <h2 ref={scene2TextRef}>Bright colours have disappeared and reduced to...</h2>
         </div>
       </section>
 
@@ -288,7 +298,7 @@ function HomePage() {
 
             <div className="text-container modern-era-text">
               <h4>CARS</h4>
-              <p>Minimalism has had a major impact on cars. As of today neutral toned cars dominate the market. 4 out of 5 cars sold are colored white, black, grey or silver.</p>
+              <p>Minimalism has had a major impact on cars. As of today neutral toned cars dominate the market. 4 out of 5 cars sold are coloured white, black, grey or silver.</p>
             </div>
           </div>
         </div>
@@ -302,7 +312,7 @@ function HomePage() {
 
             <div className="text-container modern-era-text">
               <h4>BUILDINGS</h4>
-              <p>Architectural design has been impacted by the loss of color. Vibrant colors reflect light which can create a more colorful environment compared to neutral tones that absorb light.</p>
+              <p>Architectural design has been impacted by the loss of colour. Vibrant colours reflect light which can create a more colourful environment compared to neutral tones that absorb light.</p>
             </div>
           </div>
         </div>
@@ -324,7 +334,7 @@ function HomePage() {
 
       <section className="scene-2">
         <div className="scene-2-sticky">
-          <h2 ref={pre2000QuestionRef}>What did the pre 2000s look like with environments that thrived on bright popping colors?</h2>
+          <h2 ref={pre2000QuestionRef}>What did the pre 2000s look like with environments that thrived on bright popping colours?</h2>
         </div>
       </section>
 
@@ -338,9 +348,7 @@ function HomePage() {
                 <span className="highlight-letter-L">0</span>
                 <span className="highlight-letter-O">0</span>
                 <span className="highlight-letter-R">s</span>
-              </h1>
-              <img src="/public/images/line 3.png" alt="Line 1" />
-              <p id="hero2-p">Bright colors help with social engagement and have major impacts on our emotional states. Seeing these colors releases dopamine and relieves stress.</p>
+                </h1>
             </div>
           </div>
           <div className="hero-image">
@@ -349,12 +357,18 @@ function HomePage() {
         </div>
       </section>
 
+      <section className="scene-2 grey-section">
+        <div className="scene-2-sticky">
+          <h2 className="grey-copy">Bright colours help with social engagement and have a major impact on our emotions. Seeing these colours releases dopamine and relieves stress.</h2>
+        </div>
+      </section>
+
       <section className="scene-3-grey">
         <div className="scene-3-sticky">
           <div className="two-column modern-era-column pre-2000s-column">
             <div className="text-container modern-era-text">
               <h4 className="h4-pre2000s">CARS</h4>
-              <p className="black-p">With the 2000s transition into minimalism cars colored in neutral tones dominate the market. 4 out of 5 cars sold are colored white, black, grey or silver.</p>
+              <p className="black-p">With the 2000s transition into minimalism cars coloured in neutral tones dominate the market. 4 out of 5 cars sold are coloured white, black, grey or silver.</p>
             </div>
             <img src="/images/Line%202.png" alt="Line 2" />
             <img className="car-png modern-era-model" src="/images/Pre2000s-car.png" alt="Old car" />
@@ -367,7 +381,7 @@ function HomePage() {
           <div className="two-column modern-era-column pre-2000s-column">
             <div className="text-container modern-era-text">
               <h4 className="h4-pre2000s">BUILDINGS</h4>
-              <p className="black-p">Before the minimalistic era, buildings used a lot of colorful materials such as wood and brick. This gave every neighbourhood and city a unique feel.</p>
+              <p className="black-p">Before the minimalistic era, buildings used a lot of colourful materials such as wood and brick. This gave every neighbourhood and city a unique feel.</p>
             </div>
             <img src="/images/Line%202.png" alt="Line 2" />
             <img className="car-png modern-era-model" src="/images/pre2000s-house.png" alt="old Hosue" />
@@ -390,12 +404,14 @@ function HomePage() {
 
       <section className="scene-2">
         <div className="scene-2-sticky">
-          <h2 ref={finalTextRef}>Now you know how color has evolved from the pre 2000s into the 2000s. Head over to the {" "}
-            <span className="highlight-word-drone">DRONE EXPERIENCE</span>
-            {" "}page witness these changes first hand.</h2>
+          <h2 ref={finalTextRef}>Now you know how colour has evolved from the pre 2000s into the 2000s. Lets get a first person look into this shift in colour with the {" "}
+            <a className="highlight-word-drone" href="#drone-experience">
+              DRONE EXPERIENCE
+            </a>
+          </h2>
         </div>
       </section>
-
+      <DronePage />
     </main>
   );
 }

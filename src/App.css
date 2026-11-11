@@ -12,6 +12,12 @@
 
 @font-face {
   font-family: "Plus Jakarta Sans";
+  src: url("/fonts/PlusJakartaSans-Bold.ttf");
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: "Plus Jakarta Sans";
   src: url("/fonts/PlusJakartaSans-Light.ttf");
   font-weight: 300;
 }
@@ -62,14 +68,20 @@ h1 {
   font-family: "Plus Jakarta Sans";
   font-weight: 400;
   font-size: 96px;
-  color: white;
+  color: #F5F5F5;
+}
+
+.hero .title {
+  font-weight: 700;
+  font-size: 96px;
+  margin-top: 0;
 }
 
 h2 {
   font-family: "Nata Sans";
   font-size: 48px;
   font-weight: 500;
-  color: white;
+  color: #F5F5F5;
   max-width: 60vw;
   text-align: center;
 }
@@ -78,21 +90,21 @@ h3 {
   font-family: "Plus Jakarta Sans";
   font-size: 200px;
   font-weight: 500;
-  color: white;
+  color: #F5F5F5;
 }
 
 h4 {
   font-family: "Plus Jakarta Sans";
   font-size: 80px;
   font-weight: 300;
-  color: white;
+  color: #F5F5F5;
 }
 
 p {
   font-family: "Nata Sans";
   font-weight: 500;
   font-size: 24px;
-  color: white;
+  color: #F5F5F5;
   opacity: 80%;
 }
 
@@ -108,7 +120,7 @@ p {
 
 .hero-pre-2000s-section {
   height: 200vh;
-  background-color: #C5C5C5;
+  background-color: #B6B6B6;
 }
 
 .pre-2000s-sticky {
@@ -119,14 +131,26 @@ p {
 }
 
 .pre-2000s-sticky .hero-image {
+  left: 0;
+  width: 100%;
   bottom: 0;
   margin-bottom: 0;
+}
+
+.pre-2000s-sticky .hero-image img {
+  display: block;
+  width: 100%;
+  height: auto;
 }
 
 .hero-image {
   position: absolute;
   bottom: 0;
   margin-bottom: 10vh;
+}
+
+.hero .hero-image {
+  margin-bottom: 15vh;
 }
 
 .text-container {
@@ -138,9 +162,25 @@ p {
   position: absolute;
   max-width: 1196px;
   display: flex;
+  align-items: center;
   gap: 40px;
 
   top: 15%
+}
+
+.hero-pre-2000s-section .hero-text {
+  left: 0;
+  right: 0;
+  top: 60px;
+  bottom: 33.68vw;
+  max-width: none;
+  justify-content: center;
+}
+
+.hero-pre-2000s-section .title {
+  font-weight: 700;
+  font-size: 200px;
+  color: white;
 }
 
 .highlight-letter-C {
@@ -202,6 +242,16 @@ p {
   text-align: center;
 }
 
+.grey-section {
+  background-color: #B6B6B6;
+}
+
+.grey-section h2 {
+  color: #1D1D1D;
+  max-width: 60vw;
+  text-align: center;
+}
+
 .scene-2,
 .scene-3,
 .scene-4,
@@ -212,7 +262,7 @@ p {
 
 .scene-3-grey {
   height: 200vh;
-  background-color: #C5C5C5;
+  background-color: #B6B6B6;
 }
 
 .scene-4,
@@ -226,7 +276,7 @@ p {
 
 .scene-5,
 .scene-5-sticky {
-  background-color: #C5C5C5;
+  background-color: #B6B6B6;
 }
 
 .scene-5 h3 {
@@ -302,11 +352,11 @@ p {
 
 #hero2-p {
   width: 537px;
-  color: black;
+  color: #1D1D1D;
 }
 
 #hero2h1 {
-  color: black;
+  color: #F5F5F5;
 }
 
 #hero2-text {
@@ -318,15 +368,16 @@ p {
 }
 
 .black-p {
-  color: black;
+  color: #1D1D1D;
 }
 
 .h4-pre2000s {
-  color: black;
+  color: #1D1D1D;
 }
 
 .highlight-word-drone {
   color: yellow;
+  text-decoration: none;
 }
 
 .arrDown {
@@ -369,12 +420,21 @@ p {
   pointer-events: none;
 }
 
+.drone-story-section--intro {
+  height: 400vh;
+}
+
+.drone-story-sticky--intro {
+  height: 100vh;
+  padding: 0;
+}
+
 .drone-story-section--short {
   height: 187.5vh;
 }
 
 .drone-story-section--long {
-  height: 350vh;
+  height: 400vh;
 }
 
 .drone-story-section--extended {
@@ -416,6 +476,22 @@ p {
   margin-top: 0.75rem;
   font-family: "Plus Jakarta Sans", sans-serif;
   font-size: 1rem;
+}
+
+.drone-story-card__description {
+  position: absolute;
+  top: 18vh;
+  left: 50%;
+  width: 50vw;
+  margin-top: 0;
+  margin-bottom: 0;
+  transform: translateX(-50%);
+  text-align: center;
+  color: #F5F5F5;
+  font-family: "Nata Sans";
+  font-size: 24px;
+  font-weight: 500;
+  opacity: 80%;
 }
 
 .drone-loading {
