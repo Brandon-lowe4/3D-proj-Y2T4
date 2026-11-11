@@ -67,6 +67,7 @@ function HomePage() {
             x: 0,
             autoAlpha: 1,
             duration: 1.5,
+            delay: 0.2,
             ease: "power4.out",
             scrollTrigger: {
               trigger: title,

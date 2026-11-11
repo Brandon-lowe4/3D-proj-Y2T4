@@ -18,20 +18,46 @@ export function Model(props) {
         castShadow
         receiveShadow
         geometry={nodes.Big_window_pane059.geometry}
-        material={materials.Glass}
         position={[-343.264, 9.524, -36.17]}
         rotation={[0, Math.PI / 2, 0]}
         scale={[10, 3.5, 3.143]}
-      />
+      >
+        <meshPhysicalMaterial
+          color="#ffffff"
+          transmission={0.35}
+          emissive="#ffffff"
+          emissiveIntensity={4}
+          toneMapped={false}
+          roughness={0.1}
+          thickness={0.02}
+          ior={1.4}
+          transparent
+          opacity={1}
+          depthWrite={false}
+        />
+      </mesh>
       <mesh
         castShadow
         receiveShadow
         geometry={nodes.Big_window_pane060.geometry}
-        material={materials.Glass}
         position={[-357.003, 9.765, -26.703]}
         rotation={[0, Math.PI / 2, 0]}
         scale={[10, 3.5, 3.143]}
-      />
+      >
+        <meshPhysicalMaterial
+          color="#ffffff"
+          transmission={0.35}
+          emissive="#ffffff"
+          emissiveIntensity={4}
+          toneMapped={false}
+          roughness={0.1}
+          thickness={0.02}
+          ior={1.4}
+          transparent
+          opacity={1}
+          depthWrite={false}
+        />
+      </mesh>
       <mesh
         castShadow
         receiveShadow
@@ -45,20 +71,46 @@ export function Model(props) {
         castShadow
         receiveShadow
         geometry={nodes.Big_window_pane062.geometry}
-        material={materials.Glass}
         position={[-343.264, 9.524, -36.17]}
         rotation={[0, Math.PI / 2, 0]}
         scale={[10, 3.5, 3.143]}
-      />
+      >
+        <meshPhysicalMaterial
+          color="#ffffff"
+          transmission={0.35}
+          emissive="#ffffff"
+          emissiveIntensity={4}
+          toneMapped={false}
+          roughness={0.1}
+          thickness={0.02}
+          ior={1.4}
+          transparent
+          opacity={1}
+          depthWrite={false}
+        />
+      </mesh>
       <mesh
         castShadow
         receiveShadow
         geometry={nodes.Big_window_pane063.geometry}
-        material={materials.Glass}
         position={[-343.264, 9.524, -36.17]}
         rotation={[0, Math.PI / 2, 0]}
         scale={[10, 3.5, 3.143]}
-      />
+      >
+        <meshPhysicalMaterial
+          color="#ffffff"
+          transmission={0.35}
+          emissive="#ffffff"
+          emissiveIntensity={4}
+          toneMapped={false}
+          roughness={0.1}
+          thickness={0.02}
+          ior={1.4}
+          transparent
+          opacity={1}
+          depthWrite={false}
+        />
+      </mesh>
       <mesh
         castShadow
         receiveShadow
@@ -171,20 +223,46 @@ export function Model(props) {
         castShadow
         receiveShadow
         geometry={nodes.Big_window_pane076.geometry}
-        material={materials.Glass}
         position={[-289.199, 9.524, -88.07]}
         rotation={[0, 0.003, 0]}
         scale={[10, 3.5, 3.143]}
-      />
+      >
+        <meshPhysicalMaterial
+          color="#ffffff"
+          transmission={0.35}
+          emissive="#ffffff"
+          emissiveIntensity={4}
+          toneMapped={false}
+          roughness={0.1}
+          thickness={0.02}
+          ior={1.4}
+          transparent
+          opacity={1}
+          depthWrite={false}
+        />
+      </mesh>
       <mesh
         castShadow
         receiveShadow
         geometry={nodes.Big_window_pane077.geometry}
-        material={materials.Glass}
         position={[-298.713, 9.765, -101.777]}
         rotation={[0, 0.003, 0]}
         scale={[10, 3.5, 3.143]}
-      />
+      >
+        <meshPhysicalMaterial
+          color="#ffffff"
+          transmission={0.35}
+          emissive="#ffffff"
+          emissiveIntensity={4}
+          toneMapped={false}
+          roughness={0.1}
+          thickness={0.02}
+          ior={1.4}
+          transparent
+          opacity={1}
+          depthWrite={false}
+        />
+      </mesh>
       <mesh
         castShadow
         receiveShadow
@@ -198,20 +276,46 @@ export function Model(props) {
         castShadow
         receiveShadow
         geometry={nodes.Big_window_pane079.geometry}
-        material={materials.Glass}
         position={[-289.199, 9.524, -88.07]}
         rotation={[0, 0.003, 0]}
         scale={[10, 3.5, 3.143]}
-      />
+      >
+        <meshPhysicalMaterial
+          color="#ffffff"
+          transmission={0.35}
+          emissive="#ffffff"
+          emissiveIntensity={4}
+          toneMapped={false}
+          roughness={0.1}
+          thickness={0.02}
+          ior={1.4}
+          transparent
+          opacity={1}
+          depthWrite={false}
+        />
+      </mesh>
       <mesh
         castShadow
         receiveShadow
         geometry={nodes.Big_window_pane080.geometry}
-        material={materials.Glass}
         position={[-289.199, 9.524, -88.07]}
         rotation={[0, 0.003, 0]}
         scale={[10, 3.5, 3.143]}
-      />
+      >
+        <meshPhysicalMaterial
+          color="#ffffff"
+          transmission={0.35}
+          emissive="#ffffff"
+          emissiveIntensity={4}
+          toneMapped={false}
+          roughness={0.1}
+          thickness={0.02}
+          ior={1.4}
+          transparent
+          opacity={1}
+          depthWrite={false}
+        />
+      </mesh>
       <mesh
         castShadow
         receiveShadow
@@ -351,20 +455,46 @@ export function Model(props) {
         castShadow
         receiveShadow
         geometry={nodes.Big_window_pane096.geometry}
-        material={materials.Glass}
         position={[-343.421, 9.524, -89.285]}
         rotation={[-Math.PI, 1.56, -Math.PI]}
         scale={[10, 3.5, 3.143]}
-      />
+      >
+        <meshPhysicalMaterial
+          color="#ffffff"
+          transmission={0.35}
+          emissive="#ffffff"
+          emissiveIntensity={4}
+          toneMapped={false}
+          roughness={0.1}
+          thickness={0.02}
+          ior={1.4}
+          transparent
+          opacity={1}
+          depthWrite={false}
+        />
+      </mesh>
       <mesh
         castShadow
         receiveShadow
         geometry={nodes.Big_window_pane097.geometry}
-        material={materials.Glass}
         position={[-357.061, 9.765, -79.676]}
         rotation={[-Math.PI, 1.56, -Math.PI]}
         scale={[10, 3.5, 3.143]}
-      />
+      >
+        <meshPhysicalMaterial
+          color="#ffffff"
+          transmission={0.35}
+          emissive="#ffffff"
+          emissiveIntensity={4}
+          toneMapped={false}
+          roughness={0.1}
+          thickness={0.02}
+          ior={1.4}
+          transparent
+          opacity={1}
+          depthWrite={false}
+        />
+      </mesh>
       <mesh
         castShadow
         receiveShadow
@@ -378,20 +508,46 @@ export function Model(props) {
         castShadow
         receiveShadow
         geometry={nodes.Big_window_pane099.geometry}
-        material={materials.Glass}
         position={[-343.421, 9.524, -89.285]}
         rotation={[-Math.PI, 1.56, -Math.PI]}
         scale={[10, 3.5, 3.143]}
-      />
+      >
+        <meshPhysicalMaterial
+          color="#ffffff"
+          transmission={0.35}
+          emissive="#ffffff"
+          emissiveIntensity={4}
+          toneMapped={false}
+          roughness={0.1}
+          thickness={0.02}
+          ior={1.4}
+          transparent
+          opacity={1}
+          depthWrite={false}
+        />
+      </mesh>
       <mesh
         castShadow
         receiveShadow
         geometry={nodes.Big_window_pane100.geometry}
-        material={materials.Glass}
         position={[-343.421, 9.524, -89.285]}
         rotation={[-Math.PI, 1.56, -Math.PI]}
         scale={[10, 3.5, 3.143]}
-      />
+      >
+        <meshPhysicalMaterial
+          color="#ffffff"
+          transmission={0.35}
+          emissive="#ffffff"
+          emissiveIntensity={4}
+          toneMapped={false}
+          roughness={0.1}
+          thickness={0.02}
+          ior={1.4}
+          transparent
+          opacity={1}
+          depthWrite={false}
+        />
+      </mesh>
       <mesh
         castShadow
         receiveShadow
@@ -531,20 +687,46 @@ export function Model(props) {
         castShadow
         receiveShadow
         geometry={nodes.Big_window_pane116.geometry}
-        material={materials.Glass}
         position={[-346.49, 9.524, -135.946]}
         rotation={[0, -0.005, 0]}
         scale={[10, 3.5, 3.143]}
-      />
+      >
+        <meshPhysicalMaterial
+          color="#ffffff"
+          transmission={0.35}
+          emissive="#ffffff"
+          emissiveIntensity={4}
+          toneMapped={false}
+          roughness={0.1}
+          thickness={0.02}
+          ior={1.4}
+          transparent
+          opacity={1}
+          depthWrite={false}
+        />
+      </mesh>
       <mesh
         castShadow
         receiveShadow
         geometry={nodes.Big_window_pane117.geometry}
-        material={materials.Glass}
         position={[-355.889, 9.765, -149.732]}
         rotation={[0, -0.005, 0]}
         scale={[10, 3.5, 3.143]}
-      />
+      >
+        <meshPhysicalMaterial
+          color="#ffffff"
+          transmission={0.35}
+          emissive="#ffffff"
+          emissiveIntensity={4}
+          toneMapped={false}
+          roughness={0.1}
+          thickness={0.02}
+          ior={1.4}
+          transparent
+          opacity={1}
+          depthWrite={false}
+        />
+      </mesh>
       <mesh
         castShadow
         receiveShadow
@@ -558,20 +740,46 @@ export function Model(props) {
         castShadow
         receiveShadow
         geometry={nodes.Big_window_pane119.geometry}
-        material={materials.Glass}
         position={[-346.49, 9.524, -135.946]}
         rotation={[0, -0.005, 0]}
         scale={[10, 3.5, 3.143]}
-      />
+      >
+        <meshPhysicalMaterial
+          color="#ffffff"
+          transmission={0.35}
+          emissive="#ffffff"
+          emissiveIntensity={4}
+          toneMapped={false}
+          roughness={0.1}
+          thickness={0.02}
+          ior={1.4}
+          transparent
+          opacity={1}
+          depthWrite={false}
+        />
+      </mesh>
       <mesh
         castShadow
         receiveShadow
         geometry={nodes.Big_window_pane120.geometry}
-        material={materials.Glass}
         position={[-346.49, 9.524, -135.946]}
         rotation={[0, -0.005, 0]}
         scale={[10, 3.5, 3.143]}
-      />
+      >
+        <meshPhysicalMaterial
+          color="#ffffff"
+          transmission={0.35}
+          emissive="#ffffff"
+          emissiveIntensity={4}
+          toneMapped={false}
+          roughness={0.1}
+          thickness={0.02}
+          ior={1.4}
+          transparent
+          opacity={1}
+          depthWrite={false}
+        />
+      </mesh>
       <mesh
         castShadow
         receiveShadow
@@ -684,20 +892,46 @@ export function Model(props) {
         castShadow
         receiveShadow
         geometry={nodes.Big_window_pane133.geometry}
-        material={materials.Glass}
         position={[-312.241, 9.524, -185.784]}
         rotation={[0, -0.001, 0]}
         scale={[10, 3.5, 3.143]}
-      />
+      >
+        <meshPhysicalMaterial
+          color="#ffffff"
+          transmission={0.35}
+          emissive="#ffffff"
+          emissiveIntensity={4}
+          toneMapped={false}
+          roughness={0.1}
+          thickness={0.02}
+          ior={1.4}
+          transparent
+          opacity={1}
+          depthWrite={false}
+        />
+      </mesh>
       <mesh
         castShadow
         receiveShadow
         geometry={nodes.Big_window_pane134.geometry}
-        material={materials.Glass}
         position={[-321.701, 9.765, -199.529]}
         rotation={[0, -0.001, 0]}
         scale={[10, 3.5, 3.143]}
-      />
+      >
+        <meshPhysicalMaterial
+          color="#ffffff"
+          transmission={0.35}
+          emissive="#ffffff"
+          emissiveIntensity={4}
+          toneMapped={false}
+          roughness={0.1}
+          thickness={0.02}
+          ior={1.4}
+          transparent
+          opacity={1}
+          depthWrite={false}
+        />
+      </mesh>
       <mesh
         castShadow
         receiveShadow
@@ -711,20 +945,46 @@ export function Model(props) {
         castShadow
         receiveShadow
         geometry={nodes.Big_window_pane136.geometry}
-        material={materials.Glass}
         position={[-312.241, 9.524, -185.784]}
         rotation={[0, -0.001, 0]}
         scale={[10, 3.5, 3.143]}
-      />
+      >
+        <meshPhysicalMaterial
+          color="#ffffff"
+          transmission={0.35}
+          emissive="#ffffff"
+          emissiveIntensity={4}
+          toneMapped={false}
+          roughness={0.1}
+          thickness={0.02}
+          ior={1.4}
+          transparent
+          opacity={1}
+          depthWrite={false}
+        />
+      </mesh>
       <mesh
         castShadow
         receiveShadow
         geometry={nodes.Big_window_pane137.geometry}
-        material={materials.Glass}
         position={[-312.241, 9.524, -185.784]}
         rotation={[0, -0.001, 0]}
         scale={[10, 3.5, 3.143]}
-      />
+      >
+        <meshPhysicalMaterial
+          color="#ffffff"
+          transmission={0.35}
+          emissive="#ffffff"
+          emissiveIntensity={4}
+          toneMapped={false}
+          roughness={0.1}
+          thickness={0.02}
+          ior={1.4}
+          transparent
+          opacity={1}
+          depthWrite={false}
+        />
+      </mesh>
       <mesh
         castShadow
         receiveShadow
@@ -864,20 +1124,46 @@ export function Model(props) {
         castShadow
         receiveShadow
         geometry={nodes.Big_window_pane173.geometry}
-        material={materials.Glass}
         position={[-343.264, 9.524, -36.17]}
         rotation={[0, Math.PI / 2, 0]}
         scale={[10, 3.5, 3.143]}
-      />
+      >
+        <meshPhysicalMaterial
+          color="#ffffff"
+          transmission={0.35}
+          emissive="#ffffff"
+          emissiveIntensity={4}
+          toneMapped={false}
+          roughness={0.1}
+          thickness={0.02}
+          ior={1.4}
+          transparent
+          opacity={1}
+          depthWrite={false}
+        />
+      </mesh>
       <mesh
         castShadow
         receiveShadow
         geometry={nodes.Big_window_pane174.geometry}
-        material={materials.Glass}
         position={[-357.003, 9.765, -26.703]}
         rotation={[0, Math.PI / 2, 0]}
         scale={[10, 3.5, 3.143]}
-      />
+      >
+        <meshPhysicalMaterial
+          color="#ffffff"
+          transmission={0.35}
+          emissive="#ffffff"
+          emissiveIntensity={4}
+          toneMapped={false}
+          roughness={0.1}
+          thickness={0.02}
+          ior={1.4}
+          transparent
+          opacity={1}
+          depthWrite={false}
+        />
+      </mesh>
       <mesh
         castShadow
         receiveShadow
@@ -891,20 +1177,46 @@ export function Model(props) {
         castShadow
         receiveShadow
         geometry={nodes.Big_window_pane176.geometry}
-        material={materials.Glass}
         position={[-343.264, 9.524, -36.17]}
         rotation={[0, Math.PI / 2, 0]}
         scale={[10, 3.5, 3.143]}
-      />
+      >
+        <meshPhysicalMaterial
+          color="#ffffff"
+          transmission={0.35}
+          emissive="#ffffff"
+          emissiveIntensity={4}
+          toneMapped={false}
+          roughness={0.1}
+          thickness={0.02}
+          ior={1.4}
+          transparent
+          opacity={1}
+          depthWrite={false}
+        />
+      </mesh>
       <mesh
         castShadow
         receiveShadow
         geometry={nodes.Big_window_pane177.geometry}
-        material={materials.Glass}
         position={[-343.264, 9.524, -36.17]}
         rotation={[0, Math.PI / 2, 0]}
         scale={[10, 3.5, 3.143]}
-      />
+      >
+        <meshPhysicalMaterial
+          color="#ffffff"
+          transmission={0.35}
+          emissive="#ffffff"
+          emissiveIntensity={4}
+          toneMapped={false}
+          roughness={0.1}
+          thickness={0.02}
+          ior={1.4}
+          transparent
+          opacity={1}
+          depthWrite={false}
+        />
+      </mesh>
       <mesh
         castShadow
         receiveShadow
@@ -1026,10 +1338,11 @@ export function Model(props) {
         castShadow
         receiveShadow
         geometry={nodes.Cube006.geometry}
-        material={materials['Creamy white.001']}
         position={[-311.582, 5.436, 23.504]}
         scale={[12.817, 5.094, 9.266]}
-      />
+      >
+        <meshStandardMaterial color="#ffffff" />
+      </mesh>
       <mesh
         castShadow
         receiveShadow
@@ -1042,18 +1355,20 @@ export function Model(props) {
         castShadow
         receiveShadow
         geometry={nodes.Cube009.geometry}
-        material={materials['Creamy white.001']}
         position={[-311.582, 5.436, 23.504]}
         scale={[12.817, 5.094, 9.266]}
-      />
+      >
+        <meshStandardMaterial color="#ffffff" />
+      </mesh>
       <mesh
         castShadow
         receiveShadow
         geometry={nodes.Cube010.geometry}
-        material={materials['Creamy white.001']}
         position={[-311.571, 5.761, 23.504]}
         scale={[12.817, 5.776, 9.266]}
-      />
+      >
+        <meshStandardMaterial color="#ffffff" />
+      </mesh>
       <mesh
         castShadow
         receiveShadow
@@ -1067,10 +1382,11 @@ export function Model(props) {
         castShadow
         receiveShadow
         geometry={nodes.Cube012.geometry}
-        material={materials['Creamy white.001']}
         position={[-308.635, 2.249, 11.915]}
         scale={[1.5, 2, 0.32]}
-      />
+      >
+        <meshStandardMaterial color="#ffffff" />
+      </mesh>
       <mesh
         castShadow
         receiveShadow
@@ -1092,10 +1408,18 @@ export function Model(props) {
         castShadow
         receiveShadow
         geometry={nodes.Cube015.geometry}
-        material={materials.Glass}
+        renderOrder={10}
         position={[-311.571, 5.761, 23.504]}
         scale={[12.817, 5.776, 9.266]}
-      />
+      >
+        <meshStandardMaterial
+          color="#ffe08a"
+          emissive="#ddb12a"
+          emissiveIntensity={5}
+          depthWrite={false}
+          toneMapped={false}
+        />
+      </mesh>
       <mesh
         castShadow
         receiveShadow
@@ -1126,10 +1450,18 @@ export function Model(props) {
         castShadow
         receiveShadow
         geometry={nodes.Cube019.geometry}
-        material={materials.Glass}
+        renderOrder={10}
         position={[-308.635, 2.249, 11.867]}
         scale={[1.5, 2, 0.32]}
-      />
+      >
+        <meshStandardMaterial
+          color="#ffe08a"
+          emissive="#ddb12a"
+          emissiveIntensity={5}
+          depthWrite={false}
+          toneMapped={false}
+        />
+      </mesh>
       <mesh
         castShadow
         receiveShadow
@@ -1175,10 +1507,11 @@ export function Model(props) {
         castShadow
         receiveShadow
         geometry={nodes.Cube107.geometry}
-        material={materials['Creamy white.001']}
         position={[-165.079, 5.761, 23.366]}
         scale={[12.817, 5.776, 9.266]}
-      />
+      >
+        <meshStandardMaterial color="#ffffff" />
+      </mesh>
       <mesh
         castShadow
         receiveShadow
@@ -1200,10 +1533,18 @@ export function Model(props) {
         castShadow
         receiveShadow
         geometry={nodes.Cube110.geometry}
-        material={materials.Glass}
+        renderOrder={10}
         position={[-165.079, 5.761, 23.366]}
         scale={[12.817, 5.776, 9.266]}
-      />
+      >
+        <meshStandardMaterial
+          color="#ffe08a"
+          emissive="#ddb12a"
+          emissiveIntensity={5}
+          depthWrite={false}
+          toneMapped={false}
+        />
+      </mesh>
       <mesh
         castShadow
         receiveShadow
@@ -1225,10 +1566,18 @@ export function Model(props) {
         castShadow
         receiveShadow
         geometry={nodes.Cube113.geometry}
-        material={materials.Glass}
+        renderOrder={10}
         position={[-162.143, 2.248, 11.73]}
         scale={[1.5, 2, 0.32]}
-      />
+      >
+        <meshStandardMaterial
+          color="#ffe08a"
+          emissive="#ddb12a"
+          emissiveIntensity={5}
+          depthWrite={false}
+          toneMapped={false}
+        />
+      </mesh>
       <mesh
         castShadow
         receiveShadow
@@ -1267,18 +1616,20 @@ export function Model(props) {
         castShadow
         receiveShadow
         geometry={nodes.Cube118.geometry}
-        material={materials['Creamy white.001']}
         position={[-165.091, 5.435, 23.366]}
         scale={[12.817, 5.094, 9.266]}
-      />
+      >
+        <meshStandardMaterial color="#ffffff" />
+      </mesh>
       <mesh
         castShadow
         receiveShadow
         geometry={nodes.Cube119.geometry}
-        material={materials['Creamy white.001']}
         position={[-165.091, 5.435, 23.366]}
         scale={[12.817, 5.094, 9.266]}
-      />
+      >
+        <meshStandardMaterial color="#ffffff" />
+      </mesh>
       <mesh
         castShadow
         receiveShadow
@@ -1292,10 +1643,11 @@ export function Model(props) {
         castShadow
         receiveShadow
         geometry={nodes.Cube121.geometry}
-        material={materials['Creamy white.001']}
         position={[-162.143, 2.248, 11.777]}
         scale={[1.5, 2, 0.32]}
-      />
+      >
+        <meshStandardMaterial color="#ffffff" />
+      </mesh>
       <mesh
         castShadow
         receiveShadow
@@ -1370,11 +1722,17 @@ export function Model(props) {
         castShadow
         receiveShadow
         geometry={nodes.Cube130.geometry}
-        material={materials.Glass}
         position={[-227.752, 5.483, -36.28]}
         rotation={[0, -1.564, 0]}
         scale={[12.817, 5.776, 9.266]}
-      />
+      >
+        <meshStandardMaterial
+          color="#ffe08a"
+          emissive="#ddb12a"
+          emissiveIntensity={5}
+          toneMapped={false}
+        />
+      </mesh>
       <mesh
         castShadow
         receiveShadow
@@ -1397,11 +1755,17 @@ export function Model(props) {
         castShadow
         receiveShadow
         geometry={nodes.Cube133.geometry}
-        material={materials.Glass}
         position={[-216.095, 1.97, -33.426]}
         rotation={[0, -1.564, 0]}
         scale={[1.5, 2, 0.32]}
-      />
+      >
+        <meshStandardMaterial
+          color="#ffe08a"
+          emissive="#ddb12a"
+          emissiveIntensity={5}
+          toneMapped={false}
+        />
+      </mesh>
       <mesh
         castShadow
         receiveShadow
@@ -1523,11 +1887,17 @@ export function Model(props) {
         castShadow
         receiveShadow
         geometry={nodes.Cube147.geometry}
-        material={materials.Glass}
         position={[-203.784, -0.109, -14.078]}
         rotation={[0, -1.568, 0]}
         scale={[2.316, 2.434, 4.119]}
-      />
+      >
+        <meshStandardMaterial
+          color="#ffe08a"
+          emissive="#ddb12a"
+          emissiveIntensity={3}
+          toneMapped={false}
+        />
+      </mesh>
       <mesh
         castShadow
         receiveShadow
@@ -1613,11 +1983,17 @@ export function Model(props) {
         castShadow
         receiveShadow
         geometry={nodes.Cube157.geometry}
-        material={materials.Glass}
         position={[-170.737, 0.21, 5.206]}
         rotation={[-Math.PI, 0.008, -Math.PI]}
         scale={[2.316, 2.434, 4.119]}
-      />
+      >
+        <meshStandardMaterial
+          color="#ffe08a"
+          emissive="#ddb12a"
+          emissiveIntensity={3}
+          toneMapped={false}
+        />
+      </mesh>
       <mesh
         castShadow
         receiveShadow
@@ -1673,10 +2049,16 @@ export function Model(props) {
         castShadow
         receiveShadow
         geometry={nodes.Cube164.geometry}
-        material={materials.Glass}
         position={[-246.671, 5.483, 23.371]}
         scale={[12.817, 5.776, 9.266]}
-      />
+      >
+        <meshStandardMaterial
+          color="#ffe08a"
+          emissive="#ddb12a"
+          emissiveIntensity={5}
+          toneMapped={false}
+        />
+      </mesh>
       <mesh
         castShadow
         receiveShadow
@@ -1698,10 +2080,16 @@ export function Model(props) {
         castShadow
         receiveShadow
         geometry={nodes.Cube167.geometry}
-        material={materials.Glass}
         position={[-243.735, 1.97, 11.735]}
         scale={[1.5, 2, 0.32]}
-      />
+      >
+        <meshStandardMaterial
+          color="#ffe08a"
+          emissive="#ddb12a"
+          emissiveIntensity={5}
+          toneMapped={false}
+        />
+      </mesh>
       <mesh
         castShadow
         receiveShadow
@@ -1817,11 +2205,17 @@ export function Model(props) {
         castShadow
         receiveShadow
         geometry={nodes.Cube181.geometry}
-        material={materials.Glass}
         position={[-252.087, 0.19, 4.682]}
         rotation={[-Math.PI, 0.012, -Math.PI]}
         scale={[2.316, 2.434, 4.119]}
-      />
+      >
+        <meshStandardMaterial
+          color="#ffe08a"
+          emissive="#ddb12a"
+          emissiveIntensity={3}
+          toneMapped={false}
+        />
+      </mesh>
       <mesh
         castShadow
         receiveShadow
@@ -1880,11 +2274,17 @@ export function Model(props) {
         castShadow
         receiveShadow
         geometry={nodes.Cube207.geometry}
-        material={materials.Glass}
         position={[-290.893, 5.483, -42.925]}
         rotation={[-Math.PI, 0.002, -Math.PI]}
         scale={[12.817, 5.776, 9.266]}
-      />
+      >
+        <meshStandardMaterial
+          color="#ffe08a"
+          emissive="#ddb12a"
+          emissiveIntensity={5}
+          toneMapped={false}
+        />
+      </mesh>
       <mesh
         castShadow
         receiveShadow
@@ -1907,11 +2307,17 @@ export function Model(props) {
         castShadow
         receiveShadow
         geometry={nodes.Cube210.geometry}
-        material={materials.Glass}
         position={[-293.849, 1.97, -31.293]}
         rotation={[-Math.PI, 0.002, -Math.PI]}
         scale={[1.5, 2, 0.32]}
-      />
+      >
+        <meshStandardMaterial
+          color="#ffe08a"
+          emissive="#ddb12a"
+          emissiveIntensity={5}
+          toneMapped={false}
+        />
+      </mesh>
       <mesh
         castShadow
         receiveShadow
@@ -2033,11 +2439,17 @@ export function Model(props) {
         castShadow
         receiveShadow
         geometry={nodes.Cube224.geometry}
-        material={materials.Glass}
         position={[-283.549, 0.098, -14.336]}
         rotation={[Math.PI, -1.569, Math.PI]}
         scale={[2.316, 2.434, 4.119]}
-      />
+      >
+        <meshStandardMaterial
+          color="#ffe08a"
+          emissive="#ddb12a"
+          emissiveIntensity={3}
+          toneMapped={false}
+        />
+      </mesh>
       <mesh
         castShadow
         receiveShadow
@@ -2068,10 +2480,23 @@ export function Model(props) {
         castShadow
         receiveShadow
         geometry={nodes.Cube228.geometry}
-        material={materials.Glass}
         position={[-349.964, 9.345, -45.973]}
         scale={[0.552, 2.549, 0.178]}
-      />
+      >
+        <meshPhysicalMaterial
+          color="#ffffff"
+          transmission={0.35}
+          emissive="#ffffff"
+          emissiveIntensity={4}
+          toneMapped={false}
+          roughness={0.1}
+          thickness={0.02}
+          ior={1.4}
+          transparent
+          opacity={1}
+          depthWrite={false}
+        />
+      </mesh>
       <mesh
         castShadow
         receiveShadow
@@ -2084,10 +2509,23 @@ export function Model(props) {
         castShadow
         receiveShadow
         geometry={nodes.Cube230.geometry}
-        material={materials.Glass}
         position={[-351.311, 9.345, -45.973]}
         scale={[0.552, 2.549, 0.178]}
-      />
+      >
+        <meshPhysicalMaterial
+          color="#ffffff"
+          transmission={0.35}
+          emissive="#ffffff"
+          emissiveIntensity={4}
+          toneMapped={false}
+          roughness={0.1}
+          thickness={0.02}
+          ior={1.4}
+          transparent
+          opacity={1}
+          depthWrite={false}
+        />
+      </mesh>
       <mesh
         castShadow
         receiveShadow
@@ -2126,11 +2564,24 @@ export function Model(props) {
         castShadow
         receiveShadow
         geometry={nodes.Cube235.geometry}
-        material={materials.Glass}
         position={[-333.834, 0.216, -127.004]}
         rotation={[Math.PI, -1.565, Math.PI]}
         scale={[2.316, 2.434, 4.119]}
-      />
+      >
+        <meshPhysicalMaterial
+          color="#ffffff"
+          transmission={0.35}
+          emissive="#ffffff"
+          emissiveIntensity={4}
+          toneMapped={false}
+          roughness={0.1}
+          thickness={0.02}
+          ior={1.4}
+          transparent
+          opacity={1}
+          depthWrite={false}
+        />
+      </mesh>
       <mesh
         castShadow
         receiveShadow
@@ -2144,11 +2595,17 @@ export function Model(props) {
         castShadow
         receiveShadow
         geometry={nodes.Cube237.geometry}
-        material={materials['Creamy white.001']}
         position={[-333.834, 0.216, -127.004]}
         rotation={[Math.PI, -1.565, Math.PI]}
         scale={[2.316, 2.434, 4.119]}
-      />
+      >
+        <meshStandardMaterial
+          color="#ffffff"
+          emissive="#ffffff"
+          emissiveIntensity={4}
+          toneMapped={false}
+        />
+      </mesh>
       <mesh
         castShadow
         receiveShadow
@@ -2162,11 +2619,24 @@ export function Model(props) {
         castShadow
         receiveShadow
         geometry={nodes.Cube239.geometry}
-        material={materials.Glass}
         position={[-279.419, 9.345, -94.804]}
         rotation={[0, -1.567, 0]}
         scale={[0.552, 2.549, 0.178]}
-      />
+      >
+        <meshPhysicalMaterial
+          color="#ffffff"
+          transmission={0.35}
+          emissive="#ffffff"
+          emissiveIntensity={4}
+          toneMapped={false}
+          roughness={0.1}
+          thickness={0.02}
+          ior={1.4}
+          transparent
+          opacity={1}
+          depthWrite={false}
+        />
+      </mesh>
       <mesh
         castShadow
         receiveShadow
@@ -2180,11 +2650,24 @@ export function Model(props) {
         castShadow
         receiveShadow
         geometry={nodes.Cube241.geometry}
-        material={materials.Glass}
         position={[-279.424, 9.345, -96.151]}
         rotation={[0, -1.567, 0]}
         scale={[0.552, 2.549, 0.178]}
-      />
+      >
+        <meshPhysicalMaterial
+          color="#ffffff"
+          transmission={0.35}
+          emissive="#ffffff"
+          emissiveIntensity={4}
+          toneMapped={false}
+          roughness={0.1}
+          thickness={0.02}
+          ior={1.4}
+          transparent
+          opacity={1}
+          depthWrite={false}
+        />
+      </mesh>
       <mesh
         castShadow
         receiveShadow
@@ -2225,11 +2708,24 @@ export function Model(props) {
         castShadow
         receiveShadow
         geometry={nodes.Cube246.geometry}
-        material={materials.Glass}
         position={[-317.379, -0.109, -52.141]}
         rotation={[0, -0.002, 0]}
         scale={[2.316, 2.434, 4.119]}
-      />
+      >
+        <meshPhysicalMaterial
+          color="#ffffff"
+          transmission={0.35}
+          emissive="#ffffff"
+          emissiveIntensity={4}
+          toneMapped={false}
+          roughness={0.1}
+          thickness={0.02}
+          ior={1.4}
+          transparent
+          opacity={1}
+          depthWrite={false}
+        />
+      </mesh>
       <mesh
         castShadow
         receiveShadow
@@ -2243,11 +2739,17 @@ export function Model(props) {
         castShadow
         receiveShadow
         geometry={nodes.Cube248.geometry}
-        material={materials['Creamy white.001']}
         position={[-317.379, -0.109, -52.141]}
         rotation={[0, -0.002, 0]}
         scale={[2.316, 2.434, 4.119]}
-      />
+      >
+        <meshStandardMaterial
+          color="#ffffff"
+          emissive="#ffffff"
+          emissiveIntensity={4}
+          toneMapped={false}
+        />
+      </mesh>
       <mesh
         castShadow
         receiveShadow
@@ -2270,11 +2772,24 @@ export function Model(props) {
         castShadow
         receiveShadow
         geometry={nodes.Cube251.geometry}
-        material={materials.Glass}
         position={[-314.209, -0.109, -37.552]}
         rotation={[-Math.PI, 0.561, -Math.PI]}
         scale={[2.316, 2.434, 4.119]}
-      />
+      >
+        <meshPhysicalMaterial
+          color="#ffffff"
+          transmission={0.35}
+          emissive="#ffffff"
+          emissiveIntensity={4}
+          toneMapped={false}
+          roughness={0.1}
+          thickness={0.02}
+          ior={1.4}
+          transparent
+          opacity={1}
+          depthWrite={false}
+        />
+      </mesh>
       <mesh
         castShadow
         receiveShadow
@@ -2288,11 +2803,17 @@ export function Model(props) {
         castShadow
         receiveShadow
         geometry={nodes.Cube253.geometry}
-        material={materials['Creamy white.001']}
         position={[-314.209, -0.109, -37.552]}
         rotation={[-Math.PI, 0.561, -Math.PI]}
         scale={[2.316, 2.434, 4.119]}
-      />
+      >
+        <meshStandardMaterial
+          color="#ffffff"
+          emissive="#ffffff"
+          emissiveIntensity={4}
+          toneMapped={false}
+        />
+      </mesh>
       <mesh
         castShadow
         receiveShadow
@@ -2306,11 +2827,24 @@ export function Model(props) {
         castShadow
         receiveShadow
         geometry={nodes.Cube255.geometry}
-        material={materials.Glass}
         position={[-350.222, 9.345, -99.018]}
         rotation={[0, 0.01, 0]}
         scale={[0.552, 2.549, 0.178]}
-      />
+      >
+        <meshPhysicalMaterial
+          color="#ffffff"
+          transmission={0.35}
+          emissive="#ffffff"
+          emissiveIntensity={4}
+          toneMapped={false}
+          roughness={0.1}
+          thickness={0.02}
+          ior={1.4}
+          transparent
+          opacity={1}
+          depthWrite={false}
+        />
+      </mesh>
       <mesh
         castShadow
         receiveShadow
@@ -2324,11 +2858,24 @@ export function Model(props) {
         castShadow
         receiveShadow
         geometry={nodes.Cube257.geometry}
-        material={materials.Glass}
         position={[-351.569, 9.345, -99.004]}
         rotation={[0, 0.01, 0]}
         scale={[0.552, 2.549, 0.178]}
-      />
+      >
+        <meshPhysicalMaterial
+          color="#ffffff"
+          transmission={0.35}
+          emissive="#ffffff"
+          emissiveIntensity={4}
+          toneMapped={false}
+          roughness={0.1}
+          thickness={0.02}
+          ior={1.4}
+          transparent
+          opacity={1}
+          depthWrite={false}
+        />
+      </mesh>
       <mesh
         castShadow
         receiveShadow
@@ -2369,11 +2916,24 @@ export function Model(props) {
         castShadow
         receiveShadow
         geometry={nodes.Cube262.geometry}
-        material={materials.Glass}
         position={[-335.28, -0.109, -79.876]}
         rotation={[Math.PI, -1.541, Math.PI]}
         scale={[2.316, 2.434, 4.119]}
-      />
+      >
+        <meshPhysicalMaterial
+          color="#ffffff"
+          transmission={0.35}
+          emissive="#ffffff"
+          emissiveIntensity={4}
+          toneMapped={false}
+          roughness={0.1}
+          thickness={0.02}
+          ior={1.4}
+          transparent
+          opacity={1}
+          depthWrite={false}
+        />
+      </mesh>
       <mesh
         castShadow
         receiveShadow
@@ -2387,11 +2947,17 @@ export function Model(props) {
         castShadow
         receiveShadow
         geometry={nodes.Cube264.geometry}
-        material={materials['Creamy white.001']}
         position={[-335.28, -0.109, -79.876]}
         rotation={[Math.PI, -1.541, Math.PI]}
         scale={[2.316, 2.434, 4.119]}
-      />
+      >
+        <meshStandardMaterial
+          color="#ffffff"
+          emissive="#ffffff"
+          emissiveIntensity={4}
+          toneMapped={false}
+        />
+      </mesh>
       <mesh
         castShadow
         receiveShadow
@@ -2405,11 +2971,24 @@ export function Model(props) {
         castShadow
         receiveShadow
         geometry={nodes.Cube266.geometry}
-        material={materials.Glass}
         position={[-336.654, 9.345, -142.598]}
         rotation={[Math.PI, -1.566, Math.PI]}
         scale={[0.552, 2.549, 0.178]}
-      />
+      >
+        <meshPhysicalMaterial
+          color="#ffffff"
+          transmission={0.35}
+          emissive="#ffffff"
+          emissiveIntensity={4}
+          toneMapped={false}
+          roughness={0.1}
+          thickness={0.02}
+          ior={1.4}
+          transparent
+          opacity={1}
+          depthWrite={false}
+        />
+      </mesh>
       <mesh
         castShadow
         receiveShadow
@@ -2423,11 +3002,24 @@ export function Model(props) {
         castShadow
         receiveShadow
         geometry={nodes.Cube268.geometry}
-        material={materials.Glass}
         position={[-336.648, 9.345, -143.945]}
         rotation={[Math.PI, -1.566, Math.PI]}
         scale={[0.552, 2.549, 0.178]}
-      />
+      >
+        <meshPhysicalMaterial
+          color="#ffffff"
+          transmission={0.35}
+          emissive="#ffffff"
+          emissiveIntensity={4}
+          toneMapped={false}
+          roughness={0.1}
+          thickness={0.02}
+          ior={1.4}
+          transparent
+          opacity={1}
+          depthWrite={false}
+        />
+      </mesh>
       <mesh
         castShadow
         receiveShadow
@@ -2468,11 +3060,24 @@ export function Model(props) {
         castShadow
         receiveShadow
         geometry={nodes.Cube273.geometry}
-        material={materials.Glass}
         position={[-333.834, 0.216, -127.004]}
         rotation={[Math.PI, -1.565, Math.PI]}
         scale={[2.316, 2.434, 4.119]}
-      />
+      >
+        <meshPhysicalMaterial
+          color="#ffffff"
+          transmission={0.35}
+          emissive="#ffffff"
+          emissiveIntensity={4}
+          toneMapped={false}
+          roughness={0.1}
+          thickness={0.02}
+          ior={1.4}
+          transparent
+          opacity={1}
+          depthWrite={false}
+        />
+      </mesh>
       <mesh
         castShadow
         receiveShadow
@@ -2486,11 +3091,17 @@ export function Model(props) {
         castShadow
         receiveShadow
         geometry={nodes.Cube275.geometry}
-        material={materials['Creamy white.001']}
         position={[-333.834, 0.216, -127.004]}
         rotation={[Math.PI, -1.565, Math.PI]}
         scale={[2.316, 2.434, 4.119]}
-      />
+      >
+        <meshStandardMaterial
+          color="#ffffff"
+          emissive="#ffffff"
+          emissiveIntensity={4}
+          toneMapped={false}
+        />
+      </mesh>
       <mesh
         castShadow
         receiveShadow
@@ -2504,11 +3115,24 @@ export function Model(props) {
         castShadow
         receiveShadow
         geometry={nodes.Cube277.geometry}
-        material={materials.Glass}
         position={[-302.435, 9.345, -192.479]}
         rotation={[Math.PI, -1.57, Math.PI]}
         scale={[0.552, 2.549, 0.178]}
-      />
+      >
+        <meshPhysicalMaterial
+          color="#ffffff"
+          transmission={0.35}
+          emissive="#ffffff"
+          emissiveIntensity={4}
+          toneMapped={false}
+          roughness={0.1}
+          thickness={0.02}
+          ior={1.4}
+          transparent
+          opacity={1}
+          depthWrite={false}
+        />
+      </mesh>
       <mesh
         castShadow
         receiveShadow
@@ -2522,11 +3146,24 @@ export function Model(props) {
         castShadow
         receiveShadow
         geometry={nodes.Cube279.geometry}
-        material={materials.Glass}
         position={[-302.434, 9.345, -193.826]}
         rotation={[Math.PI, -1.57, Math.PI]}
         scale={[0.552, 2.549, 0.178]}
-      />
+      >
+        <meshPhysicalMaterial
+          color="#ffffff"
+          transmission={0.35}
+          emissive="#ffffff"
+          emissiveIntensity={4}
+          toneMapped={false}
+          roughness={0.1}
+          thickness={0.02}
+          ior={1.4}
+          transparent
+          opacity={1}
+          depthWrite={false}
+        />
+      </mesh>
       <mesh
         castShadow
         receiveShadow
@@ -2567,11 +3204,24 @@ export function Model(props) {
         castShadow
         receiveShadow
         geometry={nodes.Cube284.geometry}
-        material={materials.Glass}
         position={[-321.739, -0.109, -177.747]}
         rotation={[-Math.PI, 0.04, -Math.PI]}
         scale={[2.316, 2.434, 4.119]}
-      />
+      >
+        <meshPhysicalMaterial
+          color="#ffffff"
+          transmission={0.35}
+          emissive="#ffffff"
+          emissiveIntensity={4}
+          toneMapped={false}
+          roughness={0.1}
+          thickness={0.02}
+          ior={1.4}
+          transparent
+          opacity={1}
+          depthWrite={false}
+        />
+      </mesh>
       <mesh
         castShadow
         receiveShadow
@@ -2585,11 +3235,17 @@ export function Model(props) {
         castShadow
         receiveShadow
         geometry={nodes.Cube286.geometry}
-        material={materials['Creamy white.001']}
         position={[-321.739, -0.109, -177.747]}
         rotation={[-Math.PI, 0.04, -Math.PI]}
         scale={[2.316, 2.434, 4.119]}
-      />
+      >
+        <meshStandardMaterial
+          color="#ffffff"
+          emissive="#ffffff"
+          emissiveIntensity={4}
+          toneMapped={false}
+        />
+      </mesh>
       <mesh
         castShadow
         receiveShadow
@@ -2657,11 +3313,24 @@ export function Model(props) {
         castShadow
         receiveShadow
         geometry={nodes.Cube299.geometry}
-        material={materials.Glass}
         position={[-311.33, -0.109, -163.119]}
         rotation={[Math.PI, -0.005, Math.PI]}
         scale={[2.316, 2.434, 4.119]}
-      />
+      >
+        <meshPhysicalMaterial
+          color="#ffffff"
+          transmission={0.35}
+          emissive="#ffffff"
+          emissiveIntensity={4}
+          toneMapped={false}
+          roughness={0.1}
+          thickness={0.02}
+          ior={1.4}
+          transparent
+          opacity={1}
+          depthWrite={false}
+        />
+      </mesh>
       <mesh
         castShadow
         receiveShadow
@@ -2675,11 +3344,17 @@ export function Model(props) {
         castShadow
         receiveShadow
         geometry={nodes.Cube301.geometry}
-        material={materials['Creamy white.001']}
         position={[-311.33, -0.109, -163.119]}
         rotation={[Math.PI, -0.005, Math.PI]}
         scale={[2.316, 2.434, 4.119]}
-      />
+      >
+        <meshStandardMaterial
+          color="#ffffff"
+          emissive="#ffffff"
+          emissiveIntensity={4}
+          toneMapped={false}
+        />
+      </mesh>
       <mesh
         castShadow
         receiveShadow
@@ -2692,10 +3367,23 @@ export function Model(props) {
         castShadow
         receiveShadow
         geometry={nodes.Cube309.geometry}
-        material={materials.Glass}
         position={[-349.964, 9.345, -45.973]}
         scale={[0.552, 2.549, 0.178]}
-      />
+      >
+        <meshPhysicalMaterial
+          color="#ffffff"
+          transmission={0.35}
+          emissive="#ffffff"
+          emissiveIntensity={4}
+          toneMapped={false}
+          roughness={0.1}
+          thickness={0.02}
+          ior={1.4}
+          transparent
+          opacity={1}
+          depthWrite={false}
+        />
+      </mesh>
       <mesh
         castShadow
         receiveShadow
@@ -2708,10 +3396,23 @@ export function Model(props) {
         castShadow
         receiveShadow
         geometry={nodes.Cube311.geometry}
-        material={materials.Glass}
         position={[-351.311, 9.345, -45.973]}
         scale={[0.552, 2.549, 0.178]}
-      />
+      >
+        <meshPhysicalMaterial
+          color="#ffffff"
+          transmission={0.35}
+          emissive="#ffffff"
+          emissiveIntensity={4}
+          toneMapped={false}
+          roughness={0.1}
+          thickness={0.02}
+          ior={1.4}
+          transparent
+          opacity={1}
+          depthWrite={false}
+        />
+      </mesh>
       <mesh
         castShadow
         receiveShadow
@@ -2928,7 +3629,7 @@ export function Model(props) {
         scale={[121.166, 1, 9.85]}
       />
       <directionalLight
-        intensity={10}
+        intensity={0}
         decay={2}
         position={[10.511, 35.491, 55.48]}
         rotation={[0.683, -1.519, 2.85]}
@@ -2941,8 +3642,21 @@ export function Model(props) {
           castShadow
           receiveShadow
           geometry={nodes.Cube380.geometry}
-          material={materials.Glass}
-        />
+        >
+          <meshPhysicalMaterial
+            color="#ffffff"
+            transmission={0.35}
+            emissive="#ffffff"
+            emissiveIntensity={4}
+            toneMapped={false}
+            roughness={0.1}
+            thickness={0.02}
+            ior={1.4}
+            transparent
+            opacity={1}
+            depthWrite={false}
+          />
+        </mesh>
         <mesh
           castShadow
           receiveShadow
@@ -2967,8 +3681,21 @@ export function Model(props) {
           castShadow
           receiveShadow
           geometry={nodes.Cube244_1.geometry}
-          material={materials.Glass}
-        />
+        >
+          <meshPhysicalMaterial
+            color="#ffffff"
+            transmission={0.35}
+            emissive="#ff8a24"
+            emissiveIntensity={2}
+            toneMapped={false}
+            roughness={0.1}
+            thickness={0.02}
+            ior={1.4}
+            transparent
+            opacity={1}
+            depthWrite={false}
+          />
+        </mesh>
         <mesh
           castShadow
           receiveShadow
@@ -2996,8 +3723,21 @@ export function Model(props) {
           castShadow
           receiveShadow
           geometry={nodes.Cube395.geometry}
-          material={materials.Glass}
-        />
+        >
+          <meshPhysicalMaterial
+            color="#ffffff"
+            transmission={0.35}
+            emissive="#ffffff"
+            emissiveIntensity={4}
+            toneMapped={false}
+            roughness={0.1}
+            thickness={0.02}
+            ior={1.4}
+            transparent
+            opacity={1}
+            depthWrite={false}
+          />
+        </mesh>
         <mesh
           castShadow
           receiveShadow
@@ -3025,8 +3765,21 @@ export function Model(props) {
           castShadow
           receiveShadow
           geometry={nodes.Cube510.geometry}
-          material={materials.Glass}
-        />
+        >
+          <meshPhysicalMaterial
+            color="#ffffff"
+            transmission={0.35}
+            emissive="#ffffff"
+            emissiveIntensity={4}
+            toneMapped={false}
+            roughness={0.1}
+            thickness={0.02}
+            ior={1.4}
+            transparent
+            opacity={1}
+            depthWrite={false}
+          />
+        </mesh>
         <mesh
           castShadow
           receiveShadow
@@ -3051,8 +3804,21 @@ export function Model(props) {
           castShadow
           receiveShadow
           geometry={nodes.Cube313_1.geometry}
-          material={materials.Glass}
-        />
+        >
+          <meshPhysicalMaterial
+            color="#ffffff"
+            transmission={0.35}
+            emissive="#ff8a24"
+            emissiveIntensity={2}
+            toneMapped={false}
+            roughness={0.1}
+            thickness={0.02}
+            ior={1.4}
+            transparent
+            opacity={1}
+            depthWrite={false}
+          />
+        </mesh>
         <mesh
           castShadow
           receiveShadow
@@ -3077,8 +3843,21 @@ export function Model(props) {
           castShadow
           receiveShadow
           geometry={nodes.Cube314.geometry}
-          material={materials.Glass}
-        />
+        >
+          <meshPhysicalMaterial
+            color="#ffffff"
+            transmission={0.35}
+            emissive="#ff8a24"
+            emissiveIntensity={2}
+            toneMapped={false}
+            roughness={0.1}
+            thickness={0.02}
+            ior={1.4}
+            transparent
+            opacity={1}
+            depthWrite={false}
+          />
+        </mesh>
         <mesh
           castShadow
           receiveShadow

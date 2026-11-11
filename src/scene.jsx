@@ -9,7 +9,7 @@ import { Model as GreyCarModel } from "./grey-car.jsx";
 
 
 const start = { x: 0.45, y: -0.8, z: 9 };
-const end = { x: 0.45, y: 4.5, z: 9 };
+const end = { x: 0.1, y: 1.6, z: 7 };
 const Scene = ({ progress, carColor = "black" }) => {
     const CarModel =
         carColor === "white" ? WhiteCarModel :
