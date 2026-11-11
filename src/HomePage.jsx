@@ -1,11 +1,11 @@
-import { useRef, useEffect, useLayoutEffect, Suspense, useState } from "react";
+import { useRef, useEffect, Suspense, useState } from "react";
 import "./App.css";
 import { Canvas } from "@react-three/fiber";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import Scene from "./scene.jsx";
 import { Html } from "@react-three/drei";
-import DronePage from "./DronePage.jsx";
+
 
 gsap.registerPlugin(ScrollTrigger)
 
@@ -24,14 +24,6 @@ function HomePage() {
   const [whiteProgress, setWhiteProgress] = useState(0);
   const scene5Ref = useRef(null);
   const [greyProgress, setGreyProgress] = useState(0);
-
-  useLayoutEffect(() => {
-    if (window.location.hash !== "#drone-experience") return undefined;
-
-    document.getElementById("drone-experience")?.scrollIntoView({
-      behavior: "instant",
-    });
-  }, []);
 
   useEffect(() => {
     const createTextEntrance = (
@@ -404,14 +396,15 @@ function HomePage() {
 
       <section className="scene-2">
         <div className="scene-2-sticky">
-          <h2 ref={finalTextRef}>Now you know how colour has evolved from the pre 2000s into the 2000s. Lets get a first person look into this shift in colour with the {" "}
+          <h2 ref={finalTextRef}>Now you know how colour has evolved from the pre 2000s into the 2000s. Click on the {" "}
             <a className="highlight-word-drone" href="#drone-experience">
               DRONE EXPERIENCE
             </a>
+            {" "}button at the top of the screen
+
           </h2>
         </div>
       </section>
-      <DronePage />
     </main>
   );
 }

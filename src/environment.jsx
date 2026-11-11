@@ -6,7 +6,7 @@ export function Model(props) {
   return (
     <group {...props} dispose={null}>
       <mesh
-        castShadow
+          
         receiveShadow
         geometry={nodes.Big_window_pane058.geometry}
         material={materials['Modern white.001']}
@@ -15,7 +15,7 @@ export function Model(props) {
         scale={[10, 3.5, 3.143]}
       />
       <mesh
-        castShadow
+          
         receiveShadow
         geometry={nodes.Big_window_pane059.geometry}
         position={[-343.264, 9.524, -36.17]}
@@ -24,7 +24,7 @@ export function Model(props) {
       >
         <meshPhysicalMaterial
           color="#ffffff"
-          transmission={0.35}
+           
           emissive="#ffffff"
           emissiveIntensity={4}
           toneMapped={false}
@@ -37,7 +37,7 @@ export function Model(props) {
         />
       </mesh>
       <mesh
-        castShadow
+          
         receiveShadow
         geometry={nodes.Big_window_pane060.geometry}
         position={[-357.003, 9.765, -26.703]}
@@ -46,7 +46,7 @@ export function Model(props) {
       >
         <meshPhysicalMaterial
           color="#ffffff"
-          transmission={0.35}
+           
           emissive="#ffffff"
           emissiveIntensity={4}
           toneMapped={false}
@@ -59,7 +59,7 @@ export function Model(props) {
         />
       </mesh>
       <mesh
-        castShadow
+          
         receiveShadow
         geometry={nodes.Big_window_pane061.geometry}
         material={materials['Modern wood']}
@@ -68,7 +68,7 @@ export function Model(props) {
         scale={[10, 3.5, 3.143]}
       />
       <mesh
-        castShadow
+          
         receiveShadow
         geometry={nodes.Big_window_pane062.geometry}
         position={[-343.264, 9.524, -36.17]}
@@ -77,7 +77,7 @@ export function Model(props) {
       >
         <meshPhysicalMaterial
           color="#ffffff"
-          transmission={0.35}
+           
           emissive="#ffffff"
           emissiveIntensity={4}
           toneMapped={false}
@@ -90,7 +90,7 @@ export function Model(props) {
         />
       </mesh>
       <mesh
-        castShadow
+          
         receiveShadow
         geometry={nodes.Big_window_pane063.geometry}
         position={[-343.264, 9.524, -36.17]}
@@ -99,7 +99,7 @@ export function Model(props) {
       >
         <meshPhysicalMaterial
           color="#ffffff"
-          transmission={0.35}
+           
           emissive="#ffffff"
           emissiveIntensity={4}
           toneMapped={false}
@@ -112,7 +112,7 @@ export function Model(props) {
         />
       </mesh>
       <mesh
-        castShadow
+          
         receiveShadow
         geometry={nodes.Big_window_pane064.geometry}
         material={materials['brown wood']}
@@ -121,7 +121,7 @@ export function Model(props) {
         scale={[10, 3.5, 3.143]}
       />
       <mesh
-        castShadow
+          
         receiveShadow
         geometry={nodes.Big_window_pane065.geometry}
         material={materials['2000s black.001']}
@@ -130,7 +130,7 @@ export function Model(props) {
         scale={[10, 3.5, 3.143]}
       />
       <mesh
-        castShadow
+          
         receiveShadow
         geometry={nodes.Big_window_pane066.geometry}
         material={materials['2000s black.001']}
@@ -139,7 +139,7 @@ export function Model(props) {
         scale={[10, 3.5, 3.143]}
       />
       <mesh
-        castShadow
+          
         receiveShadow
         geometry={nodes.Big_window_pane067.geometry}
         material={materials['brown wood']}
@@ -148,7 +148,7 @@ export function Model(props) {
         scale={[10, 3.5, 3.143]}
       />
       <mesh
-        castShadow
+          
         receiveShadow
         geometry={nodes.Big_window_pane068.geometry}
         material={materials['2000s black.001']}
@@ -157,7 +157,7 @@ export function Model(props) {
         scale={[10, 3.5, 3.143]}
       />
       <mesh
-        castShadow
+          
         receiveShadow
         geometry={nodes.Big_window_pane069.geometry}
         material={materials['2000s black.001']}
@@ -166,7 +166,7 @@ export function Model(props) {
         scale={[10, 3.5, 3.143]}
       />
       <mesh
-        castShadow
+          
         receiveShadow
         geometry={nodes.Big_window_pane070.geometry}
         material={materials['2000s black.001']}
@@ -175,7 +175,7 @@ export function Model(props) {
         scale={[10, 3.5, 3.143]}
       />
       <mesh
-        castShadow
+          
         receiveShadow
         geometry={nodes.Big_window_pane071.geometry}
         material={materials['2000s black.001']}
@@ -184,7 +184,7 @@ export function Model(props) {
         scale={[10, 3.5, 3.143]}
       />
       <mesh
-        castShadow
+          
         receiveShadow
         geometry={nodes.Big_window_pane072.geometry}
         material={materials['2000s black.001']}
@@ -193,7 +193,7 @@ export function Model(props) {
         scale={[10, 3.5, 3.143]}
       />
       <mesh
-        castShadow
+          
         receiveShadow
         geometry={nodes.Big_window_pane073.geometry}
         material={materials['2000s black.001']}
@@ -202,7 +202,7 @@ export function Model(props) {
         scale={[10, 3.5, 3.143]}
       />
       <mesh
-        castShadow
+          
         receiveShadow
         geometry={nodes.Big_window_pane074.geometry}
         material={materials['Modern white.001']}
@@ -211,7 +211,7 @@ export function Model(props) {
         scale={[10, 3.5, 3.143]}
       />
       <mesh
-        castShadow
+          
         receiveShadow
         geometry={nodes.Big_window_pane075.geometry}
         material={materials['Modern white.001']}
@@ -220,7 +220,7 @@ export function Model(props) {
         scale={[10, 3.5, 3.143]}
       />
       <mesh
-        castShadow
+          
         receiveShadow
         geometry={nodes.Big_window_pane076.geometry}
         position={[-289.199, 9.524, -88.07]}
@@ -229,7 +229,7 @@ export function Model(props) {
       >
         <meshPhysicalMaterial
           color="#ffffff"
-          transmission={0.35}
+           
           emissive="#ffffff"
           emissiveIntensity={4}
           toneMapped={false}
@@ -242,7 +242,7 @@ export function Model(props) {
         />
       </mesh>
       <mesh
-        castShadow
+          
         receiveShadow
         geometry={nodes.Big_window_pane077.geometry}
         position={[-298.713, 9.765, -101.777]}
@@ -251,7 +251,7 @@ export function Model(props) {
       >
         <meshPhysicalMaterial
           color="#ffffff"
-          transmission={0.35}
+           
           emissive="#ffffff"
           emissiveIntensity={4}
           toneMapped={false}
@@ -264,7 +264,7 @@ export function Model(props) {
         />
       </mesh>
       <mesh
-        castShadow
+          
         receiveShadow
         geometry={nodes.Big_window_pane078.geometry}
         material={materials['2000s black.001']}
@@ -273,7 +273,7 @@ export function Model(props) {
         scale={[10, 3.5, 3.143]}
       />
       <mesh
-        castShadow
+          
         receiveShadow
         geometry={nodes.Big_window_pane079.geometry}
         position={[-289.199, 9.524, -88.07]}
@@ -282,7 +282,7 @@ export function Model(props) {
       >
         <meshPhysicalMaterial
           color="#ffffff"
-          transmission={0.35}
+           
           emissive="#ffffff"
           emissiveIntensity={4}
           toneMapped={false}
@@ -295,7 +295,7 @@ export function Model(props) {
         />
       </mesh>
       <mesh
-        castShadow
+          
         receiveShadow
         geometry={nodes.Big_window_pane080.geometry}
         position={[-289.199, 9.524, -88.07]}
@@ -304,7 +304,7 @@ export function Model(props) {
       >
         <meshPhysicalMaterial
           color="#ffffff"
-          transmission={0.35}
+           
           emissive="#ffffff"
           emissiveIntensity={4}
           toneMapped={false}
@@ -317,7 +317,7 @@ export function Model(props) {
         />
       </mesh>
       <mesh
-        castShadow
+          
         receiveShadow
         geometry={nodes.Big_window_pane081.geometry}
         material={materials['brown wood']}
@@ -326,7 +326,7 @@ export function Model(props) {
         scale={[10, 3.5, 3.143]}
       />
       <mesh
-        castShadow
+          
         receiveShadow
         geometry={nodes.Big_window_pane082.geometry}
         material={materials['2000s black.001']}
@@ -335,7 +335,7 @@ export function Model(props) {
         scale={[10, 3.5, 3.143]}
       />
       <mesh
-        castShadow
+          
         receiveShadow
         geometry={nodes.Big_window_pane083.geometry}
         material={materials['2000s black.001']}
@@ -344,7 +344,7 @@ export function Model(props) {
         scale={[10, 3.5, 3.143]}
       />
       <mesh
-        castShadow
+          
         receiveShadow
         geometry={nodes.Big_window_pane084.geometry}
         material={materials['Modern wood']}
@@ -353,7 +353,7 @@ export function Model(props) {
         scale={[10, 3.5, 3.143]}
       />
       <mesh
-        castShadow
+          
         receiveShadow
         geometry={nodes.Big_window_pane085.geometry}
         material={materials['2000s black.001']}
@@ -362,7 +362,7 @@ export function Model(props) {
         scale={[10, 3.5, 3.143]}
       />
       <mesh
-        castShadow
+          
         receiveShadow
         geometry={nodes.Big_window_pane086.geometry}
         material={materials['2000s black.001']}
@@ -371,7 +371,7 @@ export function Model(props) {
         scale={[10, 3.5, 3.143]}
       />
       <mesh
-        castShadow
+          
         receiveShadow
         geometry={nodes.Big_window_pane087.geometry}
         material={materials['2000s black.001']}
@@ -380,7 +380,7 @@ export function Model(props) {
         scale={[10, 3.5, 3.143]}
       />
       <mesh
-        castShadow
+          
         receiveShadow
         geometry={nodes.Big_window_pane088.geometry}
         material={materials['2000s black.001']}
@@ -389,7 +389,7 @@ export function Model(props) {
         scale={[10, 3.5, 3.143]}
       />
       <mesh
-        castShadow
+          
         receiveShadow
         geometry={nodes.Big_window_pane089.geometry}
         material={materials['2000s black.001']}
@@ -398,7 +398,7 @@ export function Model(props) {
         scale={[10, 3.5, 3.143]}
       />
       <mesh
-        castShadow
+          
         receiveShadow
         geometry={nodes.Big_window_pane090.geometry}
         material={materials['Modern white']}
@@ -407,7 +407,7 @@ export function Model(props) {
         scale={[10, 3.5, 3.143]}
       />
       <mesh
-        castShadow
+          
         receiveShadow
         geometry={nodes.Big_window_pane091.geometry}
         material={materials['Modern grey.001']}
@@ -416,7 +416,7 @@ export function Model(props) {
         scale={[10, 3.5, 3.143]}
       />
       <mesh
-        castShadow
+          
         receiveShadow
         geometry={nodes.Big_window_pane092.geometry}
         material={materials['Black wood']}
@@ -425,7 +425,7 @@ export function Model(props) {
         scale={[10, 3.5, 3.143]}
       />
       <mesh
-        castShadow
+          
         receiveShadow
         geometry={nodes.Big_window_pane093.geometry}
         material={materials['Black wood']}
@@ -434,7 +434,7 @@ export function Model(props) {
         scale={[10, 3.5, 3.143]}
       />
       <mesh
-        castShadow
+          
         receiveShadow
         geometry={nodes.Big_window_pane094.geometry}
         material={materials['Modern white']}
@@ -443,7 +443,7 @@ export function Model(props) {
         scale={[10, 3.5, 3.143]}
       />
       <mesh
-        castShadow
+          
         receiveShadow
         geometry={nodes.Big_window_pane095.geometry}
         material={materials['Modern white.001']}
@@ -452,7 +452,7 @@ export function Model(props) {
         scale={[10, 3.5, 3.143]}
       />
       <mesh
-        castShadow
+          
         receiveShadow
         geometry={nodes.Big_window_pane096.geometry}
         position={[-343.421, 9.524, -89.285]}
@@ -461,7 +461,7 @@ export function Model(props) {
       >
         <meshPhysicalMaterial
           color="#ffffff"
-          transmission={0.35}
+           
           emissive="#ffffff"
           emissiveIntensity={4}
           toneMapped={false}
@@ -474,7 +474,7 @@ export function Model(props) {
         />
       </mesh>
       <mesh
-        castShadow
+          
         receiveShadow
         geometry={nodes.Big_window_pane097.geometry}
         position={[-357.061, 9.765, -79.676]}
@@ -483,7 +483,7 @@ export function Model(props) {
       >
         <meshPhysicalMaterial
           color="#ffffff"
-          transmission={0.35}
+           
           emissive="#ffffff"
           emissiveIntensity={4}
           toneMapped={false}
@@ -496,7 +496,7 @@ export function Model(props) {
         />
       </mesh>
       <mesh
-        castShadow
+          
         receiveShadow
         geometry={nodes.Big_window_pane098.geometry}
         material={materials['Modern wood']}
@@ -505,7 +505,7 @@ export function Model(props) {
         scale={[10, 3.5, 3.143]}
       />
       <mesh
-        castShadow
+          
         receiveShadow
         geometry={nodes.Big_window_pane099.geometry}
         position={[-343.421, 9.524, -89.285]}
@@ -514,7 +514,7 @@ export function Model(props) {
       >
         <meshPhysicalMaterial
           color="#ffffff"
-          transmission={0.35}
+           
           emissive="#ffffff"
           emissiveIntensity={4}
           toneMapped={false}
@@ -527,7 +527,7 @@ export function Model(props) {
         />
       </mesh>
       <mesh
-        castShadow
+          
         receiveShadow
         geometry={nodes.Big_window_pane100.geometry}
         position={[-343.421, 9.524, -89.285]}
@@ -536,7 +536,7 @@ export function Model(props) {
       >
         <meshPhysicalMaterial
           color="#ffffff"
-          transmission={0.35}
+           
           emissive="#ffffff"
           emissiveIntensity={4}
           toneMapped={false}
@@ -549,7 +549,7 @@ export function Model(props) {
         />
       </mesh>
       <mesh
-        castShadow
+          
         receiveShadow
         geometry={nodes.Big_window_pane101.geometry}
         material={materials['brown wood']}
@@ -558,7 +558,7 @@ export function Model(props) {
         scale={[10, 3.5, 3.143]}
       />
       <mesh
-        castShadow
+          
         receiveShadow
         geometry={nodes.Big_window_pane102.geometry}
         material={materials['2000s black.001']}
@@ -567,7 +567,7 @@ export function Model(props) {
         scale={[10, 3.5, 3.143]}
       />
       <mesh
-        castShadow
+          
         receiveShadow
         geometry={nodes.Big_window_pane103.geometry}
         material={materials['2000s black.001']}
@@ -576,7 +576,7 @@ export function Model(props) {
         scale={[10, 3.5, 3.143]}
       />
       <mesh
-        castShadow
+          
         receiveShadow
         geometry={nodes.Big_window_pane104.geometry}
         material={materials['Modern wood']}
@@ -585,7 +585,7 @@ export function Model(props) {
         scale={[10, 3.5, 3.143]}
       />
       <mesh
-        castShadow
+          
         receiveShadow
         geometry={nodes.Big_window_pane105.geometry}
         material={materials['2000s black.001']}
@@ -594,7 +594,7 @@ export function Model(props) {
         scale={[10, 3.5, 3.143]}
       />
       <mesh
-        castShadow
+          
         receiveShadow
         geometry={nodes.Big_window_pane106.geometry}
         material={materials['2000s black.001']}
@@ -603,7 +603,7 @@ export function Model(props) {
         scale={[10, 3.5, 3.143]}
       />
       <mesh
-        castShadow
+          
         receiveShadow
         geometry={nodes.Big_window_pane107.geometry}
         material={materials['2000s black.001']}
@@ -612,7 +612,7 @@ export function Model(props) {
         scale={[10, 3.5, 3.143]}
       />
       <mesh
-        castShadow
+          
         receiveShadow
         geometry={nodes.Big_window_pane108.geometry}
         material={materials['2000s black.001']}
@@ -621,7 +621,7 @@ export function Model(props) {
         scale={[10, 3.5, 3.143]}
       />
       <mesh
-        castShadow
+          
         receiveShadow
         geometry={nodes.Big_window_pane109.geometry}
         material={materials['2000s black.001']}
@@ -630,7 +630,7 @@ export function Model(props) {
         scale={[10, 3.5, 3.143]}
       />
       <mesh
-        castShadow
+          
         receiveShadow
         geometry={nodes.Big_window_pane110.geometry}
         material={materials['Modern white']}
@@ -639,7 +639,7 @@ export function Model(props) {
         scale={[10, 3.5, 3.143]}
       />
       <mesh
-        castShadow
+          
         receiveShadow
         geometry={nodes.Big_window_pane111.geometry}
         material={materials['Black wood']}
@@ -648,7 +648,7 @@ export function Model(props) {
         scale={[10, 3.5, 3.143]}
       />
       <mesh
-        castShadow
+          
         receiveShadow
         geometry={nodes.Big_window_pane112.geometry}
         material={materials['Black wood']}
@@ -657,7 +657,7 @@ export function Model(props) {
         scale={[10, 3.5, 3.143]}
       />
       <mesh
-        castShadow
+          
         receiveShadow
         geometry={nodes.Big_window_pane113.geometry}
         material={materials['Black wood']}
@@ -666,7 +666,7 @@ export function Model(props) {
         scale={[10, 3.5, 3.143]}
       />
       <mesh
-        castShadow
+          
         receiveShadow
         geometry={nodes.Big_window_pane114.geometry}
         material={materials['Modern white']}
@@ -675,7 +675,7 @@ export function Model(props) {
         scale={[10, 3.5, 3.143]}
       />
       <mesh
-        castShadow
+          
         receiveShadow
         geometry={nodes.Big_window_pane115.geometry}
         material={materials['Modern white.001']}
@@ -684,7 +684,7 @@ export function Model(props) {
         scale={[10, 3.5, 3.143]}
       />
       <mesh
-        castShadow
+          
         receiveShadow
         geometry={nodes.Big_window_pane116.geometry}
         position={[-346.49, 9.524, -135.946]}
@@ -693,7 +693,7 @@ export function Model(props) {
       >
         <meshPhysicalMaterial
           color="#ffffff"
-          transmission={0.35}
+           
           emissive="#ffffff"
           emissiveIntensity={4}
           toneMapped={false}
@@ -706,7 +706,7 @@ export function Model(props) {
         />
       </mesh>
       <mesh
-        castShadow
+          
         receiveShadow
         geometry={nodes.Big_window_pane117.geometry}
         position={[-355.889, 9.765, -149.732]}
@@ -715,7 +715,7 @@ export function Model(props) {
       >
         <meshPhysicalMaterial
           color="#ffffff"
-          transmission={0.35}
+           
           emissive="#ffffff"
           emissiveIntensity={4}
           toneMapped={false}
@@ -728,7 +728,7 @@ export function Model(props) {
         />
       </mesh>
       <mesh
-        castShadow
+          
         receiveShadow
         geometry={nodes.Big_window_pane118.geometry}
         material={materials['Modern wood']}
@@ -737,7 +737,7 @@ export function Model(props) {
         scale={[10, 3.5, 3.143]}
       />
       <mesh
-        castShadow
+          
         receiveShadow
         geometry={nodes.Big_window_pane119.geometry}
         position={[-346.49, 9.524, -135.946]}
@@ -746,7 +746,7 @@ export function Model(props) {
       >
         <meshPhysicalMaterial
           color="#ffffff"
-          transmission={0.35}
+           
           emissive="#ffffff"
           emissiveIntensity={4}
           toneMapped={false}
@@ -759,7 +759,7 @@ export function Model(props) {
         />
       </mesh>
       <mesh
-        castShadow
+          
         receiveShadow
         geometry={nodes.Big_window_pane120.geometry}
         position={[-346.49, 9.524, -135.946]}
@@ -768,7 +768,7 @@ export function Model(props) {
       >
         <meshPhysicalMaterial
           color="#ffffff"
-          transmission={0.35}
+           
           emissive="#ffffff"
           emissiveIntensity={4}
           toneMapped={false}
@@ -781,7 +781,7 @@ export function Model(props) {
         />
       </mesh>
       <mesh
-        castShadow
+          
         receiveShadow
         geometry={nodes.Big_window_pane121.geometry}
         material={materials['brown wood']}
@@ -790,7 +790,7 @@ export function Model(props) {
         scale={[10, 3.5, 3.143]}
       />
       <mesh
-        castShadow
+          
         receiveShadow
         geometry={nodes.Big_window_pane122.geometry}
         material={materials['2000s black.001']}
@@ -799,7 +799,7 @@ export function Model(props) {
         scale={[10, 3.5, 3.143]}
       />
       <mesh
-        castShadow
+          
         receiveShadow
         geometry={nodes.Big_window_pane123.geometry}
         material={materials['2000s black.001']}
@@ -808,7 +808,7 @@ export function Model(props) {
         scale={[10, 3.5, 3.143]}
       />
       <mesh
-        castShadow
+          
         receiveShadow
         geometry={nodes.Big_window_pane124.geometry}
         material={materials['brown wood']}
@@ -817,7 +817,7 @@ export function Model(props) {
         scale={[10, 3.5, 3.143]}
       />
       <mesh
-        castShadow
+          
         receiveShadow
         geometry={nodes.Big_window_pane125.geometry}
         material={materials['2000s black.001']}
@@ -826,7 +826,7 @@ export function Model(props) {
         scale={[10, 3.5, 3.143]}
       />
       <mesh
-        castShadow
+          
         receiveShadow
         geometry={nodes.Big_window_pane126.geometry}
         material={materials['2000s black.001']}
@@ -835,7 +835,7 @@ export function Model(props) {
         scale={[10, 3.5, 3.143]}
       />
       <mesh
-        castShadow
+          
         receiveShadow
         geometry={nodes.Big_window_pane127.geometry}
         material={materials['2000s black.001']}
@@ -844,7 +844,7 @@ export function Model(props) {
         scale={[10, 3.5, 3.143]}
       />
       <mesh
-        castShadow
+          
         receiveShadow
         geometry={nodes.Big_window_pane128.geometry}
         material={materials['2000s black.001']}
@@ -853,7 +853,7 @@ export function Model(props) {
         scale={[10, 3.5, 3.143]}
       />
       <mesh
-        castShadow
+          
         receiveShadow
         geometry={nodes.Big_window_pane129.geometry}
         material={materials['2000s black.001']}
@@ -862,7 +862,7 @@ export function Model(props) {
         scale={[10, 3.5, 3.143]}
       />
       <mesh
-        castShadow
+          
         receiveShadow
         geometry={nodes.Big_window_pane130.geometry}
         material={materials['2000s black.001']}
@@ -871,7 +871,7 @@ export function Model(props) {
         scale={[10, 3.5, 3.143]}
       />
       <mesh
-        castShadow
+          
         receiveShadow
         geometry={nodes.Big_window_pane131.geometry}
         material={materials['Modern white.001']}
@@ -880,7 +880,7 @@ export function Model(props) {
         scale={[10, 3.5, 3.143]}
       />
       <mesh
-        castShadow
+          
         receiveShadow
         geometry={nodes.Big_window_pane132.geometry}
         material={materials['Modern white.001']}
@@ -889,7 +889,7 @@ export function Model(props) {
         scale={[10, 3.5, 3.143]}
       />
       <mesh
-        castShadow
+          
         receiveShadow
         geometry={nodes.Big_window_pane133.geometry}
         position={[-312.241, 9.524, -185.784]}
@@ -898,7 +898,7 @@ export function Model(props) {
       >
         <meshPhysicalMaterial
           color="#ffffff"
-          transmission={0.35}
+           
           emissive="#ffffff"
           emissiveIntensity={4}
           toneMapped={false}
@@ -911,7 +911,7 @@ export function Model(props) {
         />
       </mesh>
       <mesh
-        castShadow
+          
         receiveShadow
         geometry={nodes.Big_window_pane134.geometry}
         position={[-321.701, 9.765, -199.529]}
@@ -920,7 +920,7 @@ export function Model(props) {
       >
         <meshPhysicalMaterial
           color="#ffffff"
-          transmission={0.35}
+           
           emissive="#ffffff"
           emissiveIntensity={4}
           toneMapped={false}
@@ -933,7 +933,7 @@ export function Model(props) {
         />
       </mesh>
       <mesh
-        castShadow
+          
         receiveShadow
         geometry={nodes.Big_window_pane135.geometry}
         material={materials['Modern wood']}
@@ -942,7 +942,7 @@ export function Model(props) {
         scale={[10, 3.5, 3.143]}
       />
       <mesh
-        castShadow
+          
         receiveShadow
         geometry={nodes.Big_window_pane136.geometry}
         position={[-312.241, 9.524, -185.784]}
@@ -951,7 +951,7 @@ export function Model(props) {
       >
         <meshPhysicalMaterial
           color="#ffffff"
-          transmission={0.35}
+           
           emissive="#ffffff"
           emissiveIntensity={4}
           toneMapped={false}
@@ -964,7 +964,7 @@ export function Model(props) {
         />
       </mesh>
       <mesh
-        castShadow
+          
         receiveShadow
         geometry={nodes.Big_window_pane137.geometry}
         position={[-312.241, 9.524, -185.784]}
@@ -973,7 +973,7 @@ export function Model(props) {
       >
         <meshPhysicalMaterial
           color="#ffffff"
-          transmission={0.35}
+           
           emissive="#ffffff"
           emissiveIntensity={4}
           toneMapped={false}
@@ -986,7 +986,7 @@ export function Model(props) {
         />
       </mesh>
       <mesh
-        castShadow
+          
         receiveShadow
         geometry={nodes.Big_window_pane138.geometry}
         material={materials['brown wood']}
@@ -995,7 +995,7 @@ export function Model(props) {
         scale={[10, 3.5, 3.143]}
       />
       <mesh
-        castShadow
+          
         receiveShadow
         geometry={nodes.Big_window_pane139.geometry}
         material={materials['2000s black.001']}
@@ -1004,7 +1004,7 @@ export function Model(props) {
         scale={[10, 3.5, 3.143]}
       />
       <mesh
-        castShadow
+          
         receiveShadow
         geometry={nodes.Big_window_pane140.geometry}
         material={materials['2000s black.001']}
@@ -1013,7 +1013,7 @@ export function Model(props) {
         scale={[10, 3.5, 3.143]}
       />
       <mesh
-        castShadow
+          
         receiveShadow
         geometry={nodes.Big_window_pane141.geometry}
         material={materials['Modern wood']}
@@ -1022,7 +1022,7 @@ export function Model(props) {
         scale={[10, 3.5, 3.143]}
       />
       <mesh
-        castShadow
+          
         receiveShadow
         geometry={nodes.Big_window_pane142.geometry}
         material={materials['2000s black.001']}
@@ -1031,7 +1031,7 @@ export function Model(props) {
         scale={[10, 3.5, 3.143]}
       />
       <mesh
-        castShadow
+          
         receiveShadow
         geometry={nodes.Big_window_pane143.geometry}
         material={materials['2000s black.001']}
@@ -1040,7 +1040,7 @@ export function Model(props) {
         scale={[10, 3.5, 3.143]}
       />
       <mesh
-        castShadow
+          
         receiveShadow
         geometry={nodes.Big_window_pane144.geometry}
         material={materials['2000s black.001']}
@@ -1049,7 +1049,7 @@ export function Model(props) {
         scale={[10, 3.5, 3.143]}
       />
       <mesh
-        castShadow
+          
         receiveShadow
         geometry={nodes.Big_window_pane145.geometry}
         material={materials['2000s black.001']}
@@ -1058,7 +1058,7 @@ export function Model(props) {
         scale={[10, 3.5, 3.143]}
       />
       <mesh
-        castShadow
+          
         receiveShadow
         geometry={nodes.Big_window_pane146.geometry}
         material={materials['2000s black.001']}
@@ -1067,7 +1067,7 @@ export function Model(props) {
         scale={[10, 3.5, 3.143]}
       />
       <mesh
-        castShadow
+          
         receiveShadow
         geometry={nodes.Big_window_pane147.geometry}
         material={materials['Modern white']}
@@ -1076,7 +1076,7 @@ export function Model(props) {
         scale={[10, 3.5, 3.143]}
       />
       <mesh
-        castShadow
+          
         receiveShadow
         geometry={nodes.Big_window_pane148.geometry}
         material={materials['Black wood']}
@@ -1085,7 +1085,7 @@ export function Model(props) {
         scale={[10, 3.5, 3.143]}
       />
       <mesh
-        castShadow
+          
         receiveShadow
         geometry={nodes.Big_window_pane149.geometry}
         material={materials['Black wood']}
@@ -1094,7 +1094,7 @@ export function Model(props) {
         scale={[10, 3.5, 3.143]}
       />
       <mesh
-        castShadow
+          
         receiveShadow
         geometry={nodes.Big_window_pane150.geometry}
         material={materials['Black wood']}
@@ -1103,7 +1103,7 @@ export function Model(props) {
         scale={[10, 3.5, 3.143]}
       />
       <mesh
-        castShadow
+          
         receiveShadow
         geometry={nodes.Big_window_pane151.geometry}
         material={materials['Modern white']}
@@ -1112,7 +1112,7 @@ export function Model(props) {
         scale={[10, 3.5, 3.143]}
       />
       <mesh
-        castShadow
+          
         receiveShadow
         geometry={nodes.Big_window_pane172.geometry}
         material={materials['Modern white.001']}
@@ -1121,7 +1121,7 @@ export function Model(props) {
         scale={[10, 3.5, 3.143]}
       />
       <mesh
-        castShadow
+          
         receiveShadow
         geometry={nodes.Big_window_pane173.geometry}
         position={[-343.264, 9.524, -36.17]}
@@ -1130,7 +1130,7 @@ export function Model(props) {
       >
         <meshPhysicalMaterial
           color="#ffffff"
-          transmission={0.35}
+           
           emissive="#ffffff"
           emissiveIntensity={4}
           toneMapped={false}
@@ -1143,7 +1143,7 @@ export function Model(props) {
         />
       </mesh>
       <mesh
-        castShadow
+          
         receiveShadow
         geometry={nodes.Big_window_pane174.geometry}
         position={[-357.003, 9.765, -26.703]}
@@ -1152,7 +1152,7 @@ export function Model(props) {
       >
         <meshPhysicalMaterial
           color="#ffffff"
-          transmission={0.35}
+           
           emissive="#ffffff"
           emissiveIntensity={4}
           toneMapped={false}
@@ -1165,7 +1165,7 @@ export function Model(props) {
         />
       </mesh>
       <mesh
-        castShadow
+          
         receiveShadow
         geometry={nodes.Big_window_pane175.geometry}
         material={materials['Modern wood']}
@@ -1174,7 +1174,7 @@ export function Model(props) {
         scale={[10, 3.5, 3.143]}
       />
       <mesh
-        castShadow
+          
         receiveShadow
         geometry={nodes.Big_window_pane176.geometry}
         position={[-343.264, 9.524, -36.17]}
@@ -1183,7 +1183,7 @@ export function Model(props) {
       >
         <meshPhysicalMaterial
           color="#ffffff"
-          transmission={0.35}
+           
           emissive="#ffffff"
           emissiveIntensity={4}
           toneMapped={false}
@@ -1196,7 +1196,7 @@ export function Model(props) {
         />
       </mesh>
       <mesh
-        castShadow
+          
         receiveShadow
         geometry={nodes.Big_window_pane177.geometry}
         position={[-343.264, 9.524, -36.17]}
@@ -1205,7 +1205,7 @@ export function Model(props) {
       >
         <meshPhysicalMaterial
           color="#ffffff"
-          transmission={0.35}
+           
           emissive="#ffffff"
           emissiveIntensity={4}
           toneMapped={false}
@@ -1218,7 +1218,7 @@ export function Model(props) {
         />
       </mesh>
       <mesh
-        castShadow
+          
         receiveShadow
         geometry={nodes.Big_window_pane178.geometry}
         material={materials['brown wood']}
@@ -1227,7 +1227,7 @@ export function Model(props) {
         scale={[10, 3.5, 3.143]}
       />
       <mesh
-        castShadow
+          
         receiveShadow
         geometry={nodes.Big_window_pane179.geometry}
         material={materials['2000s black.001']}
@@ -1236,7 +1236,7 @@ export function Model(props) {
         scale={[10, 3.5, 3.143]}
       />
       <mesh
-        castShadow
+          
         receiveShadow
         geometry={nodes.Big_window_pane180.geometry}
         material={materials['2000s black.001']}
@@ -1245,7 +1245,7 @@ export function Model(props) {
         scale={[10, 3.5, 3.143]}
       />
       <mesh
-        castShadow
+          
         receiveShadow
         geometry={nodes.Big_window_pane181.geometry}
         material={materials['brown wood']}
@@ -1254,7 +1254,7 @@ export function Model(props) {
         scale={[10, 3.5, 3.143]}
       />
       <mesh
-        castShadow
+          
         receiveShadow
         geometry={nodes.Big_window_pane182.geometry}
         material={materials['2000s black.001']}
@@ -1263,7 +1263,7 @@ export function Model(props) {
         scale={[10, 3.5, 3.143]}
       />
       <mesh
-        castShadow
+          
         receiveShadow
         geometry={nodes.Big_window_pane183.geometry}
         material={materials['2000s black.001']}
@@ -1272,7 +1272,7 @@ export function Model(props) {
         scale={[10, 3.5, 3.143]}
       />
       <mesh
-        castShadow
+          
         receiveShadow
         geometry={nodes.Big_window_pane184.geometry}
         material={materials['2000s black.001']}
@@ -1281,7 +1281,7 @@ export function Model(props) {
         scale={[10, 3.5, 3.143]}
       />
       <mesh
-        castShadow
+          
         receiveShadow
         geometry={nodes.Big_window_pane185.geometry}
         material={materials['2000s black.001']}
@@ -1290,7 +1290,7 @@ export function Model(props) {
         scale={[10, 3.5, 3.143]}
       />
       <mesh
-        castShadow
+          
         receiveShadow
         geometry={nodes.Big_window_pane186.geometry}
         material={materials['2000s black.001']}
@@ -1299,7 +1299,7 @@ export function Model(props) {
         scale={[10, 3.5, 3.143]}
       />
       <mesh
-        castShadow
+          
         receiveShadow
         geometry={nodes.Big_window_pane187.geometry}
         material={materials['2000s black.001']}
@@ -1308,7 +1308,7 @@ export function Model(props) {
         scale={[10, 3.5, 3.143]}
       />
       <mesh
-        castShadow
+          
         receiveShadow
         geometry={nodes.Big_window_pane188.geometry}
         material={materials['Modern white.001']}
@@ -1317,7 +1317,7 @@ export function Model(props) {
         scale={[10, 3.5, 3.143]}
       />
       <mesh
-        castShadow
+          
         receiveShadow
         geometry={nodes.Cube004.geometry}
         material={materials['Roof tiles']}
@@ -1326,7 +1326,7 @@ export function Model(props) {
         scale={[3.178, 2.5, 3.5]}
       />
       <mesh
-        castShadow
+          
         receiveShadow
         geometry={nodes.Cube005.geometry}
         material={materials['Roof tiles']}
@@ -1335,7 +1335,7 @@ export function Model(props) {
         scale={[12.135, 2.786, 5.308]}
       />
       <mesh
-        castShadow
+          
         receiveShadow
         geometry={nodes.Cube006.geometry}
         position={[-311.582, 5.436, 23.504]}
@@ -1344,7 +1344,7 @@ export function Model(props) {
         <meshStandardMaterial color="#ffffff" />
       </mesh>
       <mesh
-        castShadow
+          
         receiveShadow
         geometry={nodes.Cube008.geometry}
         material={materials['Pre 2000s wood']}
@@ -1352,7 +1352,7 @@ export function Model(props) {
         scale={[12.817, 5.094, 9.266]}
       />
       <mesh
-        castShadow
+          
         receiveShadow
         geometry={nodes.Cube009.geometry}
         position={[-311.582, 5.436, 23.504]}
@@ -1361,7 +1361,7 @@ export function Model(props) {
         <meshStandardMaterial color="#ffffff" />
       </mesh>
       <mesh
-        castShadow
+          
         receiveShadow
         geometry={nodes.Cube010.geometry}
         position={[-311.571, 5.761, 23.504]}
@@ -1370,7 +1370,7 @@ export function Model(props) {
         <meshStandardMaterial color="#ffffff" />
       </mesh>
       <mesh
-        castShadow
+          
         receiveShadow
         geometry={nodes.Cube011.geometry}
         material={materials['Creamy white.001']}
@@ -1379,7 +1379,7 @@ export function Model(props) {
         scale={[12.135, 2.786, 5.308]}
       />
       <mesh
-        castShadow
+          
         receiveShadow
         geometry={nodes.Cube012.geometry}
         position={[-308.635, 2.249, 11.915]}
@@ -1388,7 +1388,7 @@ export function Model(props) {
         <meshStandardMaterial color="#ffffff" />
       </mesh>
       <mesh
-        castShadow
+          
         receiveShadow
         geometry={nodes.Cube013.geometry}
         material={materials['Roof tiles']}
@@ -1396,7 +1396,7 @@ export function Model(props) {
         scale={[14.392, 5.291, 9.266]}
       />
       <mesh
-        castShadow
+          
         receiveShadow
         geometry={nodes.Cube014.geometry}
         material={nodes.Cube014.material}
@@ -1405,7 +1405,7 @@ export function Model(props) {
         scale={[12.135, 2.786, 5.308]}
       />
       <mesh
-        castShadow
+          
         receiveShadow
         geometry={nodes.Cube015.geometry}
         renderOrder={10}
@@ -1421,7 +1421,7 @@ export function Model(props) {
         />
       </mesh>
       <mesh
-        castShadow
+          
         receiveShadow
         geometry={nodes.Cube016.geometry}
         material={materials['pre 2000s wood 2']}
@@ -1430,7 +1430,7 @@ export function Model(props) {
         scale={[12.135, 2.786, 5.308]}
       />
       <mesh
-        castShadow
+          
         receiveShadow
         geometry={nodes.Cube017.geometry}
         material={materials['pre 2000s wood 2']}
@@ -1439,7 +1439,7 @@ export function Model(props) {
         scale={[3.178, 2.5, 3.5]}
       />
       <mesh
-        castShadow
+          
         receiveShadow
         geometry={nodes.Cube018.geometry}
         material={nodes.Cube018.material}
@@ -1447,7 +1447,7 @@ export function Model(props) {
         scale={[1.5, 2, 0.32]}
       />
       <mesh
-        castShadow
+          
         receiveShadow
         geometry={nodes.Cube019.geometry}
         renderOrder={10}
@@ -1463,7 +1463,7 @@ export function Model(props) {
         />
       </mesh>
       <mesh
-        castShadow
+          
         receiveShadow
         geometry={nodes.Cube020.geometry}
         material={materials['Creamy white.001']}
@@ -1471,7 +1471,7 @@ export function Model(props) {
         scale={[0.965, 2.957, 0.965]}
       />
       <mesh
-        castShadow
+          
         receiveShadow
         geometry={nodes.Cube021.geometry}
         material={materials['Creamy white.001']}
@@ -1480,7 +1480,7 @@ export function Model(props) {
         scale={[12.135, 2.786, 5.308]}
       />
       <mesh
-        castShadow
+          
         receiveShadow
         geometry={nodes.Cube022.geometry}
         material={materials['Creamy white.001']}
@@ -1488,7 +1488,7 @@ export function Model(props) {
         scale={0.288}
       />
       <mesh
-        castShadow
+          
         receiveShadow
         geometry={nodes.Cube023.geometry}
         material={materials['Roof tiles']}
@@ -1496,7 +1496,7 @@ export function Model(props) {
         scale={[0.965, 2.957, 0.965]}
       />
       <mesh
-        castShadow
+          
         receiveShadow
         geometry={nodes.Cube106.geometry}
         material={materials['Pre 2000s wood']}
@@ -1504,7 +1504,7 @@ export function Model(props) {
         scale={[12.817, 5.094, 9.266]}
       />
       <mesh
-        castShadow
+          
         receiveShadow
         geometry={nodes.Cube107.geometry}
         position={[-165.079, 5.761, 23.366]}
@@ -1513,7 +1513,7 @@ export function Model(props) {
         <meshStandardMaterial color="#ffffff" />
       </mesh>
       <mesh
-        castShadow
+          
         receiveShadow
         geometry={nodes.Cube108.geometry}
         material={materials['Roof tiles']}
@@ -1521,7 +1521,7 @@ export function Model(props) {
         scale={[14.392, 5.291, 9.266]}
       />
       <mesh
-        castShadow
+          
         receiveShadow
         geometry={nodes.Cube109.geometry}
         material={nodes.Cube109.material}
@@ -1530,7 +1530,7 @@ export function Model(props) {
         scale={[12.135, 2.786, 5.308]}
       />
       <mesh
-        castShadow
+          
         receiveShadow
         geometry={nodes.Cube110.geometry}
         renderOrder={10}
@@ -1546,7 +1546,7 @@ export function Model(props) {
         />
       </mesh>
       <mesh
-        castShadow
+          
         receiveShadow
         geometry={nodes.Cube111.geometry}
         material={materials['pre 2000s wood 2']}
@@ -1555,7 +1555,7 @@ export function Model(props) {
         scale={[3.178, 2.5, 3.5]}
       />
       <mesh
-        castShadow
+          
         receiveShadow
         geometry={nodes.Cube112.geometry}
         material={nodes.Cube112.material}
@@ -1563,7 +1563,7 @@ export function Model(props) {
         scale={[1.5, 2, 0.32]}
       />
       <mesh
-        castShadow
+          
         receiveShadow
         geometry={nodes.Cube113.geometry}
         renderOrder={10}
@@ -1579,7 +1579,7 @@ export function Model(props) {
         />
       </mesh>
       <mesh
-        castShadow
+          
         receiveShadow
         geometry={nodes.Cube114.geometry}
         material={materials['Creamy white.001']}
@@ -1587,7 +1587,7 @@ export function Model(props) {
         scale={[0.965, 2.957, 0.965]}
       />
       <mesh
-        castShadow
+          
         receiveShadow
         geometry={nodes.Cube115.geometry}
         material={materials['Creamy white.001']}
@@ -1595,7 +1595,7 @@ export function Model(props) {
         scale={0.288}
       />
       <mesh
-        castShadow
+          
         receiveShadow
         geometry={nodes.Cube116.geometry}
         material={materials['Roof tiles']}
@@ -1604,7 +1604,7 @@ export function Model(props) {
         scale={[3.178, 2.5, 3.5]}
       />
       <mesh
-        castShadow
+          
         receiveShadow
         geometry={nodes.Cube117.geometry}
         material={materials['Roof tiles']}
@@ -1613,7 +1613,7 @@ export function Model(props) {
         scale={[12.135, 2.786, 5.308]}
       />
       <mesh
-        castShadow
+          
         receiveShadow
         geometry={nodes.Cube118.geometry}
         position={[-165.091, 5.435, 23.366]}
@@ -1622,7 +1622,7 @@ export function Model(props) {
         <meshStandardMaterial color="#ffffff" />
       </mesh>
       <mesh
-        castShadow
+          
         receiveShadow
         geometry={nodes.Cube119.geometry}
         position={[-165.091, 5.435, 23.366]}
@@ -1631,7 +1631,7 @@ export function Model(props) {
         <meshStandardMaterial color="#ffffff" />
       </mesh>
       <mesh
-        castShadow
+          
         receiveShadow
         geometry={nodes.Cube120.geometry}
         material={materials['Creamy white.001']}
@@ -1640,7 +1640,7 @@ export function Model(props) {
         scale={[12.135, 2.786, 5.308]}
       />
       <mesh
-        castShadow
+          
         receiveShadow
         geometry={nodes.Cube121.geometry}
         position={[-162.143, 2.248, 11.777]}
@@ -1649,7 +1649,7 @@ export function Model(props) {
         <meshStandardMaterial color="#ffffff" />
       </mesh>
       <mesh
-        castShadow
+          
         receiveShadow
         geometry={nodes.Cube122.geometry}
         material={materials['pre 2000s wood 2']}
@@ -1658,7 +1658,7 @@ export function Model(props) {
         scale={[12.135, 2.786, 5.308]}
       />
       <mesh
-        castShadow
+          
         receiveShadow
         geometry={nodes.Cube123.geometry}
         material={materials['Creamy white.001']}
@@ -1667,7 +1667,7 @@ export function Model(props) {
         scale={[12.135, 2.786, 5.308]}
       />
       <mesh
-        castShadow
+          
         receiveShadow
         geometry={nodes.Cube124.geometry}
         material={materials['Roof tiles']}
@@ -1675,7 +1675,7 @@ export function Model(props) {
         scale={[0.965, 2.957, 0.965]}
       />
       <mesh
-        castShadow
+          
         receiveShadow
         geometry={nodes.Cube125.geometry}
         material={materials['Pre 2000s wood']}
@@ -1683,7 +1683,7 @@ export function Model(props) {
         scale={[12.817, 5.094, 9.266]}
       />
       <mesh
-        castShadow
+          
         receiveShadow
         geometry={nodes.Cube126.geometry}
         material={materials['red brick']}
@@ -1692,7 +1692,7 @@ export function Model(props) {
         scale={[12.817, 5.094, 9.266]}
       />
       <mesh
-        castShadow
+          
         receiveShadow
         geometry={nodes.Cube127.geometry}
         material={materials.Cream}
@@ -1701,7 +1701,7 @@ export function Model(props) {
         scale={[12.817, 5.776, 9.266]}
       />
       <mesh
-        castShadow
+          
         receiveShadow
         geometry={nodes.Cube128.geometry}
         material={materials['Roof tiles']}
@@ -1710,7 +1710,7 @@ export function Model(props) {
         scale={[14.392, 5.291, 9.266]}
       />
       <mesh
-        castShadow
+          
         receiveShadow
         geometry={nodes.Cube129.geometry}
         material={nodes.Cube129.material}
@@ -1719,7 +1719,7 @@ export function Model(props) {
         scale={[12.135, 2.786, 5.308]}
       />
       <mesh
-        castShadow
+          
         receiveShadow
         geometry={nodes.Cube130.geometry}
         position={[-227.752, 5.483, -36.28]}
@@ -1734,7 +1734,7 @@ export function Model(props) {
         />
       </mesh>
       <mesh
-        castShadow
+          
         receiveShadow
         geometry={nodes.Cube131.geometry}
         material={materials['Red brick 2']}
@@ -1743,7 +1743,7 @@ export function Model(props) {
         scale={[3.178, 2.5, 3.5]}
       />
       <mesh
-        castShadow
+          
         receiveShadow
         geometry={nodes.Cube132.geometry}
         material={nodes.Cube132.material}
@@ -1752,7 +1752,7 @@ export function Model(props) {
         scale={[1.5, 2, 0.32]}
       />
       <mesh
-        castShadow
+          
         receiveShadow
         geometry={nodes.Cube133.geometry}
         position={[-216.095, 1.97, -33.426]}
@@ -1767,7 +1767,7 @@ export function Model(props) {
         />
       </mesh>
       <mesh
-        castShadow
+          
         receiveShadow
         geometry={nodes.Cube134.geometry}
         material={materials['Creamy white.001']}
@@ -1776,7 +1776,7 @@ export function Model(props) {
         scale={[0.965, 2.957, 0.965]}
       />
       <mesh
-        castShadow
+          
         receiveShadow
         geometry={nodes.Cube135.geometry}
         material={materials.Cream}
@@ -1785,7 +1785,7 @@ export function Model(props) {
         scale={0.288}
       />
       <mesh
-        castShadow
+          
         receiveShadow
         geometry={nodes.Cube136.geometry}
         material={materials['Roof tiles']}
@@ -1794,7 +1794,7 @@ export function Model(props) {
         scale={[3.178, 2.5, 3.5]}
       />
       <mesh
-        castShadow
+          
         receiveShadow
         geometry={nodes.Cube137.geometry}
         material={materials['Roof tiles']}
@@ -1803,7 +1803,7 @@ export function Model(props) {
         scale={[12.135, 2.786, 5.308]}
       />
       <mesh
-        castShadow
+          
         receiveShadow
         geometry={nodes.Cube138.geometry}
         material={materials['Creamy white.001']}
@@ -1812,7 +1812,7 @@ export function Model(props) {
         scale={[12.817, 5.094, 9.266]}
       />
       <mesh
-        castShadow
+          
         receiveShadow
         geometry={nodes.Cube139.geometry}
         material={materials['Creamy white.001']}
@@ -1821,7 +1821,7 @@ export function Model(props) {
         scale={[12.817, 5.094, 9.266]}
       />
       <mesh
-        castShadow
+          
         receiveShadow
         geometry={nodes.Cube140.geometry}
         material={materials.Cream}
@@ -1830,7 +1830,7 @@ export function Model(props) {
         scale={[12.135, 2.786, 5.308]}
       />
       <mesh
-        castShadow
+          
         receiveShadow
         geometry={nodes.Cube141.geometry}
         material={materials.Cream}
@@ -1839,7 +1839,7 @@ export function Model(props) {
         scale={[1.5, 2, 0.32]}
       />
       <mesh
-        castShadow
+          
         receiveShadow
         geometry={nodes.Cube142.geometry}
         material={materials['Red brick 2']}
@@ -1848,7 +1848,7 @@ export function Model(props) {
         scale={[12.135, 2.786, 5.308]}
       />
       <mesh
-        castShadow
+          
         receiveShadow
         geometry={nodes.Cube143.geometry}
         material={materials['Creamy white.001']}
@@ -1857,7 +1857,7 @@ export function Model(props) {
         scale={[12.135, 2.786, 5.308]}
       />
       <mesh
-        castShadow
+          
         receiveShadow
         geometry={nodes.Cube144.geometry}
         material={materials['Roof tiles']}
@@ -1866,7 +1866,7 @@ export function Model(props) {
         scale={[0.965, 2.957, 0.965]}
       />
       <mesh
-        castShadow
+          
         receiveShadow
         geometry={nodes.Cube145.geometry}
         material={materials['pre 2000s yellow']}
@@ -1875,7 +1875,7 @@ export function Model(props) {
         scale={[2.316, 2.434, 4.119]}
       />
       <mesh
-        castShadow
+          
         receiveShadow
         geometry={nodes.Cube146.geometry}
         material={materials['Material.005']}
@@ -1884,7 +1884,7 @@ export function Model(props) {
         scale={[2.316, 2.434, 4.119]}
       />
       <mesh
-        castShadow
+          
         receiveShadow
         geometry={nodes.Cube147.geometry}
         position={[-203.784, -0.109, -14.078]}
@@ -1899,7 +1899,7 @@ export function Model(props) {
         />
       </mesh>
       <mesh
-        castShadow
+          
         receiveShadow
         geometry={nodes.Cube148.geometry}
         material={materials['pre 2000s yellow']}
@@ -1908,7 +1908,7 @@ export function Model(props) {
         scale={[2.316, 2.434, 4.119]}
       />
       <mesh
-        castShadow
+          
         receiveShadow
         geometry={nodes.Cube149.geometry}
         material={materials['Creamy white.001']}
@@ -1917,7 +1917,7 @@ export function Model(props) {
         scale={[2.316, 2.434, 4.119]}
       />
       <mesh
-        castShadow
+          
         receiveShadow
         geometry={nodes.Cube150.geometry}
         material={materials['Pre 2000s blue']}
@@ -1926,7 +1926,7 @@ export function Model(props) {
         scale={[2.316, 2.434, 4.119]}
       />
       <mesh
-        castShadow
+          
         receiveShadow
         geometry={nodes.Cube151.geometry}
         material={materials['Material.005']}
@@ -1935,7 +1935,7 @@ export function Model(props) {
         scale={[2.316, 2.434, 4.119]}
       />
       <mesh
-        castShadow
+          
         receiveShadow
         geometry={nodes.Cube152.geometry}
         material={materials.Glass}
@@ -1944,7 +1944,7 @@ export function Model(props) {
         scale={[2.316, 2.434, 4.119]}
       />
       <mesh
-        castShadow
+          
         receiveShadow
         geometry={nodes.Cube153.geometry}
         material={materials['Pre 2000s blue']}
@@ -1953,7 +1953,7 @@ export function Model(props) {
         scale={[2.316, 2.434, 4.119]}
       />
       <mesh
-        castShadow
+          
         receiveShadow
         geometry={nodes.Cube154.geometry}
         material={materials['Creamy white.001']}
@@ -1962,7 +1962,7 @@ export function Model(props) {
         scale={[2.316, 2.434, 4.119]}
       />
       <mesh
-        castShadow
+          
         receiveShadow
         geometry={nodes.Cube155.geometry}
         material={materials['Pre 2000s red']}
@@ -1971,7 +1971,7 @@ export function Model(props) {
         scale={[2.316, 2.434, 4.119]}
       />
       <mesh
-        castShadow
+          
         receiveShadow
         geometry={nodes.Cube156.geometry}
         material={materials['Material.005']}
@@ -1980,7 +1980,7 @@ export function Model(props) {
         scale={[2.316, 2.434, 4.119]}
       />
       <mesh
-        castShadow
+          
         receiveShadow
         geometry={nodes.Cube157.geometry}
         position={[-170.737, 0.21, 5.206]}
@@ -1995,7 +1995,7 @@ export function Model(props) {
         />
       </mesh>
       <mesh
-        castShadow
+          
         receiveShadow
         geometry={nodes.Cube158.geometry}
         material={materials['Pre 2000s red']}
@@ -2004,7 +2004,7 @@ export function Model(props) {
         scale={[2.316, 2.434, 4.119]}
       />
       <mesh
-        castShadow
+          
         receiveShadow
         geometry={nodes.Cube159.geometry}
         material={materials['Creamy white.001']}
@@ -2013,7 +2013,7 @@ export function Model(props) {
         scale={[2.316, 2.434, 4.119]}
       />
       <mesh
-        castShadow
+          
         receiveShadow
         geometry={nodes.Cube160.geometry}
         material={materials['yellow wood']}
@@ -2021,7 +2021,7 @@ export function Model(props) {
         scale={[12.817, 5.094, 9.266]}
       />
       <mesh
-        castShadow
+          
         receiveShadow
         geometry={nodes.Cube161.geometry}
         material={materials.Cream}
@@ -2029,7 +2029,7 @@ export function Model(props) {
         scale={[12.817, 5.776, 9.266]}
       />
       <mesh
-        castShadow
+          
         receiveShadow
         geometry={nodes.Cube162.geometry}
         material={materials.roofing}
@@ -2037,7 +2037,7 @@ export function Model(props) {
         scale={[14.392, 5.291, 9.266]}
       />
       <mesh
-        castShadow
+          
         receiveShadow
         geometry={nodes.Cube163.geometry}
         material={nodes.Cube163.material}
@@ -2046,7 +2046,7 @@ export function Model(props) {
         scale={[12.135, 2.786, 5.308]}
       />
       <mesh
-        castShadow
+          
         receiveShadow
         geometry={nodes.Cube164.geometry}
         position={[-246.671, 5.483, 23.371]}
@@ -2060,7 +2060,7 @@ export function Model(props) {
         />
       </mesh>
       <mesh
-        castShadow
+          
         receiveShadow
         geometry={nodes.Cube165.geometry}
         material={materials['Yellow wood 2']}
@@ -2069,7 +2069,7 @@ export function Model(props) {
         scale={[3.178, 2.5, 3.5]}
       />
       <mesh
-        castShadow
+          
         receiveShadow
         geometry={nodes.Cube166.geometry}
         material={nodes.Cube166.material}
@@ -2077,7 +2077,7 @@ export function Model(props) {
         scale={[1.5, 2, 0.32]}
       />
       <mesh
-        castShadow
+          
         receiveShadow
         geometry={nodes.Cube167.geometry}
         position={[-243.735, 1.97, 11.735]}
@@ -2091,7 +2091,7 @@ export function Model(props) {
         />
       </mesh>
       <mesh
-        castShadow
+          
         receiveShadow
         geometry={nodes.Cube168.geometry}
         material={materials['Creamy white.001']}
@@ -2099,7 +2099,7 @@ export function Model(props) {
         scale={[0.965, 2.957, 0.965]}
       />
       <mesh
-        castShadow
+          
         receiveShadow
         geometry={nodes.Cube169.geometry}
         material={materials.Cream}
@@ -2107,7 +2107,7 @@ export function Model(props) {
         scale={0.288}
       />
       <mesh
-        castShadow
+          
         receiveShadow
         geometry={nodes.Cube170.geometry}
         material={materials.roofing}
@@ -2116,7 +2116,7 @@ export function Model(props) {
         scale={[3.178, 2.5, 3.5]}
       />
       <mesh
-        castShadow
+          
         receiveShadow
         geometry={nodes.Cube171.geometry}
         material={materials.roofing}
@@ -2125,7 +2125,7 @@ export function Model(props) {
         scale={[12.135, 2.786, 5.308]}
       />
       <mesh
-        castShadow
+          
         receiveShadow
         geometry={nodes.Cube172.geometry}
         material={materials['Creamy white.001']}
@@ -2133,7 +2133,7 @@ export function Model(props) {
         scale={[12.817, 5.094, 9.266]}
       />
       <mesh
-        castShadow
+          
         receiveShadow
         geometry={nodes.Cube173.geometry}
         material={materials['Creamy white.001']}
@@ -2141,7 +2141,7 @@ export function Model(props) {
         scale={[12.817, 5.094, 9.266]}
       />
       <mesh
-        castShadow
+          
         receiveShadow
         geometry={nodes.Cube174.geometry}
         material={materials.Cream}
@@ -2150,7 +2150,7 @@ export function Model(props) {
         scale={[12.135, 2.786, 5.308]}
       />
       <mesh
-        castShadow
+          
         receiveShadow
         geometry={nodes.Cube175.geometry}
         material={materials.Cream}
@@ -2158,7 +2158,7 @@ export function Model(props) {
         scale={[1.5, 2, 0.32]}
       />
       <mesh
-        castShadow
+          
         receiveShadow
         geometry={nodes.Cube176.geometry}
         material={materials['Yellow wood 2']}
@@ -2167,7 +2167,7 @@ export function Model(props) {
         scale={[12.135, 2.786, 5.308]}
       />
       <mesh
-        castShadow
+          
         receiveShadow
         geometry={nodes.Cube177.geometry}
         material={materials['Creamy white.001']}
@@ -2176,7 +2176,7 @@ export function Model(props) {
         scale={[12.135, 2.786, 5.308]}
       />
       <mesh
-        castShadow
+          
         receiveShadow
         geometry={nodes.Cube178.geometry}
         material={materials['Roof tiles']}
@@ -2184,7 +2184,7 @@ export function Model(props) {
         scale={[0.965, 2.957, 0.965]}
       />
       <mesh
-        castShadow
+          
         receiveShadow
         geometry={nodes.Cube179.geometry}
         material={materials['pre 2000s yellow']}
@@ -2193,7 +2193,7 @@ export function Model(props) {
         scale={[2.316, 2.434, 4.119]}
       />
       <mesh
-        castShadow
+          
         receiveShadow
         geometry={nodes.Cube180.geometry}
         material={materials['Material.005']}
@@ -2202,7 +2202,7 @@ export function Model(props) {
         scale={[2.316, 2.434, 4.119]}
       />
       <mesh
-        castShadow
+          
         receiveShadow
         geometry={nodes.Cube181.geometry}
         position={[-252.087, 0.19, 4.682]}
@@ -2217,7 +2217,7 @@ export function Model(props) {
         />
       </mesh>
       <mesh
-        castShadow
+          
         receiveShadow
         geometry={nodes.Cube182.geometry}
         material={materials['pre 2000s yellow']}
@@ -2226,7 +2226,7 @@ export function Model(props) {
         scale={[2.316, 2.434, 4.119]}
       />
       <mesh
-        castShadow
+          
         receiveShadow
         geometry={nodes.Cube183.geometry}
         material={materials['Creamy white.001']}
@@ -2235,7 +2235,7 @@ export function Model(props) {
         scale={[2.316, 2.434, 4.119]}
       />
       <mesh
-        castShadow
+          
         receiveShadow
         geometry={nodes.Cube203.geometry}
         material={materials['yellow wood']}
@@ -2244,7 +2244,7 @@ export function Model(props) {
         scale={[12.817, 5.094, 9.266]}
       />
       <mesh
-        castShadow
+          
         receiveShadow
         geometry={nodes.Cube204.geometry}
         material={materials.Cream}
@@ -2253,7 +2253,7 @@ export function Model(props) {
         scale={[12.817, 5.776, 9.266]}
       />
       <mesh
-        castShadow
+          
         receiveShadow
         geometry={nodes.Cube205.geometry}
         material={materials.roofing}
@@ -2262,7 +2262,7 @@ export function Model(props) {
         scale={[14.392, 5.291, 9.266]}
       />
       <mesh
-        castShadow
+          
         receiveShadow
         geometry={nodes.Cube206.geometry}
         material={nodes.Cube206.material}
@@ -2271,7 +2271,7 @@ export function Model(props) {
         scale={[12.135, 2.786, 5.308]}
       />
       <mesh
-        castShadow
+          
         receiveShadow
         geometry={nodes.Cube207.geometry}
         position={[-290.893, 5.483, -42.925]}
@@ -2286,7 +2286,7 @@ export function Model(props) {
         />
       </mesh>
       <mesh
-        castShadow
+          
         receiveShadow
         geometry={nodes.Cube208.geometry}
         material={materials['Yellow wood 2']}
@@ -2295,7 +2295,7 @@ export function Model(props) {
         scale={[3.178, 2.5, 3.5]}
       />
       <mesh
-        castShadow
+          
         receiveShadow
         geometry={nodes.Cube209.geometry}
         material={nodes.Cube209.material}
@@ -2304,7 +2304,7 @@ export function Model(props) {
         scale={[1.5, 2, 0.32]}
       />
       <mesh
-        castShadow
+          
         receiveShadow
         geometry={nodes.Cube210.geometry}
         position={[-293.849, 1.97, -31.293]}
@@ -2319,7 +2319,7 @@ export function Model(props) {
         />
       </mesh>
       <mesh
-        castShadow
+          
         receiveShadow
         geometry={nodes.Cube211.geometry}
         material={materials['Creamy white.001']}
@@ -2328,7 +2328,7 @@ export function Model(props) {
         scale={[0.965, 2.957, 0.965]}
       />
       <mesh
-        castShadow
+          
         receiveShadow
         geometry={nodes.Cube212.geometry}
         material={materials.Cream}
@@ -2337,7 +2337,7 @@ export function Model(props) {
         scale={0.288}
       />
       <mesh
-        castShadow
+          
         receiveShadow
         geometry={nodes.Cube213.geometry}
         material={materials.roofing}
@@ -2346,7 +2346,7 @@ export function Model(props) {
         scale={[3.178, 2.5, 3.5]}
       />
       <mesh
-        castShadow
+          
         receiveShadow
         geometry={nodes.Cube214.geometry}
         material={materials.roofing}
@@ -2355,7 +2355,7 @@ export function Model(props) {
         scale={[12.135, 2.786, 5.308]}
       />
       <mesh
-        castShadow
+          
         receiveShadow
         geometry={nodes.Cube215.geometry}
         material={materials['Creamy white.001']}
@@ -2364,7 +2364,7 @@ export function Model(props) {
         scale={[12.817, 5.094, 9.266]}
       />
       <mesh
-        castShadow
+          
         receiveShadow
         geometry={nodes.Cube216.geometry}
         material={materials['Creamy white.001']}
@@ -2373,7 +2373,7 @@ export function Model(props) {
         scale={[12.817, 5.094, 9.266]}
       />
       <mesh
-        castShadow
+          
         receiveShadow
         geometry={nodes.Cube217.geometry}
         material={materials.Cream}
@@ -2382,7 +2382,7 @@ export function Model(props) {
         scale={[12.135, 2.786, 5.308]}
       />
       <mesh
-        castShadow
+          
         receiveShadow
         geometry={nodes.Cube218.geometry}
         material={materials.Cream}
@@ -2391,7 +2391,7 @@ export function Model(props) {
         scale={[1.5, 2, 0.32]}
       />
       <mesh
-        castShadow
+          
         receiveShadow
         geometry={nodes.Cube219.geometry}
         material={materials['Yellow wood 2']}
@@ -2400,7 +2400,7 @@ export function Model(props) {
         scale={[12.135, 2.786, 5.308]}
       />
       <mesh
-        castShadow
+          
         receiveShadow
         geometry={nodes.Cube220.geometry}
         material={materials['Creamy white.001']}
@@ -2409,7 +2409,7 @@ export function Model(props) {
         scale={[12.135, 2.786, 5.308]}
       />
       <mesh
-        castShadow
+          
         receiveShadow
         geometry={nodes.Cube221.geometry}
         material={materials['Roof tiles']}
@@ -2418,7 +2418,7 @@ export function Model(props) {
         scale={[0.965, 2.957, 0.965]}
       />
       <mesh
-        castShadow
+          
         receiveShadow
         geometry={nodes.Cube222.geometry}
         material={materials['Pre 2000s red']}
@@ -2427,7 +2427,7 @@ export function Model(props) {
         scale={[2.316, 2.434, 4.119]}
       />
       <mesh
-        castShadow
+          
         receiveShadow
         geometry={nodes.Cube223.geometry}
         material={materials['Material.005']}
@@ -2436,7 +2436,7 @@ export function Model(props) {
         scale={[2.316, 2.434, 4.119]}
       />
       <mesh
-        castShadow
+          
         receiveShadow
         geometry={nodes.Cube224.geometry}
         position={[-283.549, 0.098, -14.336]}
@@ -2451,7 +2451,7 @@ export function Model(props) {
         />
       </mesh>
       <mesh
-        castShadow
+          
         receiveShadow
         geometry={nodes.Cube225.geometry}
         material={materials['Pre 2000s red']}
@@ -2460,7 +2460,7 @@ export function Model(props) {
         scale={[2.316, 2.434, 4.119]}
       />
       <mesh
-        castShadow
+          
         receiveShadow
         geometry={nodes.Cube226.geometry}
         material={materials['Creamy white.001']}
@@ -2469,7 +2469,7 @@ export function Model(props) {
         scale={[2.316, 2.434, 4.119]}
       />
       <mesh
-        castShadow
+          
         receiveShadow
         geometry={nodes.Cube227.geometry}
         material={materials['2000s black.001']}
@@ -2477,7 +2477,7 @@ export function Model(props) {
         scale={[0.531, 2.549, 0.178]}
       />
       <mesh
-        castShadow
+          
         receiveShadow
         geometry={nodes.Cube228.geometry}
         position={[-349.964, 9.345, -45.973]}
@@ -2485,7 +2485,7 @@ export function Model(props) {
       >
         <meshPhysicalMaterial
           color="#ffffff"
-          transmission={0.35}
+           
           emissive="#ffffff"
           emissiveIntensity={4}
           toneMapped={false}
@@ -2498,7 +2498,7 @@ export function Model(props) {
         />
       </mesh>
       <mesh
-        castShadow
+          
         receiveShadow
         geometry={nodes.Cube229.geometry}
         material={nodes.Cube229.material}
@@ -2506,7 +2506,7 @@ export function Model(props) {
         scale={[0.531, 2.549, 0.178]}
       />
       <mesh
-        castShadow
+          
         receiveShadow
         geometry={nodes.Cube230.geometry}
         position={[-351.311, 9.345, -45.973]}
@@ -2514,7 +2514,7 @@ export function Model(props) {
       >
         <meshPhysicalMaterial
           color="#ffffff"
-          transmission={0.35}
+           
           emissive="#ffffff"
           emissiveIntensity={4}
           toneMapped={false}
@@ -2527,7 +2527,7 @@ export function Model(props) {
         />
       </mesh>
       <mesh
-        castShadow
+          
         receiveShadow
         geometry={nodes.Cube231.geometry}
         material={materials['2000s black.001']}
@@ -2535,7 +2535,7 @@ export function Model(props) {
         scale={[0.531, 2.549, 0.178]}
       />
       <mesh
-        castShadow
+          
         receiveShadow
         geometry={nodes.Cube232.geometry}
         material={materials['2000s black.001']}
@@ -2543,7 +2543,7 @@ export function Model(props) {
         scale={[0.531, 2.549, 0.178]}
       />
       <mesh
-        castShadow
+          
         receiveShadow
         geometry={nodes.Cube233.geometry}
         material={materials['2000s black.001']}
@@ -2552,7 +2552,7 @@ export function Model(props) {
         scale={[2.316, 2.434, 4.119]}
       />
       <mesh
-        castShadow
+          
         receiveShadow
         geometry={nodes.Cube234.geometry}
         material={materials['2000s black.001']}
@@ -2561,7 +2561,7 @@ export function Model(props) {
         scale={[2.316, 2.434, 4.119]}
       />
       <mesh
-        castShadow
+          
         receiveShadow
         geometry={nodes.Cube235.geometry}
         position={[-333.834, 0.216, -127.004]}
@@ -2570,7 +2570,7 @@ export function Model(props) {
       >
         <meshPhysicalMaterial
           color="#ffffff"
-          transmission={0.35}
+           
           emissive="#ffffff"
           emissiveIntensity={4}
           toneMapped={false}
@@ -2583,7 +2583,7 @@ export function Model(props) {
         />
       </mesh>
       <mesh
-        castShadow
+          
         receiveShadow
         geometry={nodes.Cube236.geometry}
         material={materials['2000s black.001']}
@@ -2592,7 +2592,7 @@ export function Model(props) {
         scale={[2.316, 2.434, 4.119]}
       />
       <mesh
-        castShadow
+          
         receiveShadow
         geometry={nodes.Cube237.geometry}
         position={[-333.834, 0.216, -127.004]}
@@ -2607,7 +2607,7 @@ export function Model(props) {
         />
       </mesh>
       <mesh
-        castShadow
+          
         receiveShadow
         geometry={nodes.Cube238.geometry}
         material={materials['2000s black.001']}
@@ -2616,7 +2616,7 @@ export function Model(props) {
         scale={[0.531, 2.549, 0.178]}
       />
       <mesh
-        castShadow
+          
         receiveShadow
         geometry={nodes.Cube239.geometry}
         position={[-279.419, 9.345, -94.804]}
@@ -2625,7 +2625,7 @@ export function Model(props) {
       >
         <meshPhysicalMaterial
           color="#ffffff"
-          transmission={0.35}
+           
           emissive="#ffffff"
           emissiveIntensity={4}
           toneMapped={false}
@@ -2638,7 +2638,7 @@ export function Model(props) {
         />
       </mesh>
       <mesh
-        castShadow
+          
         receiveShadow
         geometry={nodes.Cube240.geometry}
         material={nodes.Cube240.material}
@@ -2647,7 +2647,7 @@ export function Model(props) {
         scale={[0.531, 2.549, 0.178]}
       />
       <mesh
-        castShadow
+          
         receiveShadow
         geometry={nodes.Cube241.geometry}
         position={[-279.424, 9.345, -96.151]}
@@ -2656,7 +2656,7 @@ export function Model(props) {
       >
         <meshPhysicalMaterial
           color="#ffffff"
-          transmission={0.35}
+           
           emissive="#ffffff"
           emissiveIntensity={4}
           toneMapped={false}
@@ -2669,7 +2669,7 @@ export function Model(props) {
         />
       </mesh>
       <mesh
-        castShadow
+          
         receiveShadow
         geometry={nodes.Cube242.geometry}
         material={materials['2000s black.001']}
@@ -2678,7 +2678,7 @@ export function Model(props) {
         scale={[0.531, 2.549, 0.178]}
       />
       <mesh
-        castShadow
+          
         receiveShadow
         geometry={nodes.Cube243.geometry}
         material={materials['2000s black.001']}
@@ -2687,7 +2687,7 @@ export function Model(props) {
         scale={[0.531, 2.549, 0.178]}
       />
       <mesh
-        castShadow
+          
         receiveShadow
         geometry={nodes.Cube244.geometry}
         material={materials['Material.004']}
@@ -2696,7 +2696,7 @@ export function Model(props) {
         scale={[2.316, 2.434, 4.119]}
       />
       <mesh
-        castShadow
+          
         receiveShadow
         geometry={nodes.Cube245.geometry}
         material={materials['2000s black.001']}
@@ -2705,7 +2705,7 @@ export function Model(props) {
         scale={[2.316, 2.434, 4.119]}
       />
       <mesh
-        castShadow
+          
         receiveShadow
         geometry={nodes.Cube246.geometry}
         position={[-317.379, -0.109, -52.141]}
@@ -2714,7 +2714,7 @@ export function Model(props) {
       >
         <meshPhysicalMaterial
           color="#ffffff"
-          transmission={0.35}
+           
           emissive="#ffffff"
           emissiveIntensity={4}
           toneMapped={false}
@@ -2727,7 +2727,7 @@ export function Model(props) {
         />
       </mesh>
       <mesh
-        castShadow
+          
         receiveShadow
         geometry={nodes.Cube247.geometry}
         material={materials['2000s black.001']}
@@ -2736,7 +2736,7 @@ export function Model(props) {
         scale={[2.316, 2.434, 4.119]}
       />
       <mesh
-        castShadow
+          
         receiveShadow
         geometry={nodes.Cube248.geometry}
         position={[-317.379, -0.109, -52.141]}
@@ -2751,7 +2751,7 @@ export function Model(props) {
         />
       </mesh>
       <mesh
-        castShadow
+          
         receiveShadow
         geometry={nodes.Cube249.geometry}
         material={materials['Modern grey.001']}
@@ -2760,7 +2760,7 @@ export function Model(props) {
         scale={[2.316, 2.434, 4.119]}
       />
       <mesh
-        castShadow
+          
         receiveShadow
         geometry={nodes.Cube250.geometry}
         material={materials['2000s black.001']}
@@ -2769,7 +2769,7 @@ export function Model(props) {
         scale={[2.316, 2.434, 4.119]}
       />
       <mesh
-        castShadow
+          
         receiveShadow
         geometry={nodes.Cube251.geometry}
         position={[-314.209, -0.109, -37.552]}
@@ -2778,7 +2778,7 @@ export function Model(props) {
       >
         <meshPhysicalMaterial
           color="#ffffff"
-          transmission={0.35}
+           
           emissive="#ffffff"
           emissiveIntensity={4}
           toneMapped={false}
@@ -2791,7 +2791,7 @@ export function Model(props) {
         />
       </mesh>
       <mesh
-        castShadow
+          
         receiveShadow
         geometry={nodes.Cube252.geometry}
         material={materials['2000s black.001']}
@@ -2800,7 +2800,7 @@ export function Model(props) {
         scale={[2.316, 2.434, 4.119]}
       />
       <mesh
-        castShadow
+          
         receiveShadow
         geometry={nodes.Cube253.geometry}
         position={[-314.209, -0.109, -37.552]}
@@ -2815,7 +2815,7 @@ export function Model(props) {
         />
       </mesh>
       <mesh
-        castShadow
+          
         receiveShadow
         geometry={nodes.Cube254.geometry}
         material={materials['2000s black.001']}
@@ -2824,7 +2824,7 @@ export function Model(props) {
         scale={[0.531, 2.549, 0.178]}
       />
       <mesh
-        castShadow
+          
         receiveShadow
         geometry={nodes.Cube255.geometry}
         position={[-350.222, 9.345, -99.018]}
@@ -2833,7 +2833,7 @@ export function Model(props) {
       >
         <meshPhysicalMaterial
           color="#ffffff"
-          transmission={0.35}
+           
           emissive="#ffffff"
           emissiveIntensity={4}
           toneMapped={false}
@@ -2846,7 +2846,7 @@ export function Model(props) {
         />
       </mesh>
       <mesh
-        castShadow
+          
         receiveShadow
         geometry={nodes.Cube256.geometry}
         material={nodes.Cube256.material}
@@ -2855,7 +2855,7 @@ export function Model(props) {
         scale={[0.531, 2.549, 0.178]}
       />
       <mesh
-        castShadow
+          
         receiveShadow
         geometry={nodes.Cube257.geometry}
         position={[-351.569, 9.345, -99.004]}
@@ -2864,7 +2864,7 @@ export function Model(props) {
       >
         <meshPhysicalMaterial
           color="#ffffff"
-          transmission={0.35}
+           
           emissive="#ffffff"
           emissiveIntensity={4}
           toneMapped={false}
@@ -2877,7 +2877,7 @@ export function Model(props) {
         />
       </mesh>
       <mesh
-        castShadow
+          
         receiveShadow
         geometry={nodes.Cube258.geometry}
         material={materials['2000s black.001']}
@@ -2886,7 +2886,7 @@ export function Model(props) {
         scale={[0.531, 2.549, 0.178]}
       />
       <mesh
-        castShadow
+          
         receiveShadow
         geometry={nodes.Cube259.geometry}
         material={materials['2000s black.001']}
@@ -2895,7 +2895,7 @@ export function Model(props) {
         scale={[0.531, 2.549, 0.178]}
       />
       <mesh
-        castShadow
+          
         receiveShadow
         geometry={nodes.Cube260.geometry}
         material={materials['Modern grey.001']}
@@ -2904,7 +2904,7 @@ export function Model(props) {
         scale={[2.316, 2.434, 4.119]}
       />
       <mesh
-        castShadow
+          
         receiveShadow
         geometry={nodes.Cube261.geometry}
         material={materials['2000s black.001']}
@@ -2913,7 +2913,7 @@ export function Model(props) {
         scale={[2.316, 2.434, 4.119]}
       />
       <mesh
-        castShadow
+          
         receiveShadow
         geometry={nodes.Cube262.geometry}
         position={[-335.28, -0.109, -79.876]}
@@ -2922,7 +2922,7 @@ export function Model(props) {
       >
         <meshPhysicalMaterial
           color="#ffffff"
-          transmission={0.35}
+           
           emissive="#ffffff"
           emissiveIntensity={4}
           toneMapped={false}
@@ -2935,7 +2935,7 @@ export function Model(props) {
         />
       </mesh>
       <mesh
-        castShadow
+          
         receiveShadow
         geometry={nodes.Cube263.geometry}
         material={materials['2000s black.001']}
@@ -2944,7 +2944,7 @@ export function Model(props) {
         scale={[2.316, 2.434, 4.119]}
       />
       <mesh
-        castShadow
+          
         receiveShadow
         geometry={nodes.Cube264.geometry}
         position={[-335.28, -0.109, -79.876]}
@@ -2959,7 +2959,7 @@ export function Model(props) {
         />
       </mesh>
       <mesh
-        castShadow
+          
         receiveShadow
         geometry={nodes.Cube265.geometry}
         material={materials['2000s black.001']}
@@ -2968,7 +2968,7 @@ export function Model(props) {
         scale={[0.531, 2.549, 0.178]}
       />
       <mesh
-        castShadow
+          
         receiveShadow
         geometry={nodes.Cube266.geometry}
         position={[-336.654, 9.345, -142.598]}
@@ -2977,7 +2977,7 @@ export function Model(props) {
       >
         <meshPhysicalMaterial
           color="#ffffff"
-          transmission={0.35}
+           
           emissive="#ffffff"
           emissiveIntensity={4}
           toneMapped={false}
@@ -2990,7 +2990,7 @@ export function Model(props) {
         />
       </mesh>
       <mesh
-        castShadow
+          
         receiveShadow
         geometry={nodes.Cube267.geometry}
         material={nodes.Cube267.material}
@@ -2999,7 +2999,7 @@ export function Model(props) {
         scale={[0.531, 2.549, 0.178]}
       />
       <mesh
-        castShadow
+          
         receiveShadow
         geometry={nodes.Cube268.geometry}
         position={[-336.648, 9.345, -143.945]}
@@ -3008,7 +3008,7 @@ export function Model(props) {
       >
         <meshPhysicalMaterial
           color="#ffffff"
-          transmission={0.35}
+           
           emissive="#ffffff"
           emissiveIntensity={4}
           toneMapped={false}
@@ -3021,7 +3021,7 @@ export function Model(props) {
         />
       </mesh>
       <mesh
-        castShadow
+          
         receiveShadow
         geometry={nodes.Cube269.geometry}
         material={materials['2000s black.001']}
@@ -3030,7 +3030,7 @@ export function Model(props) {
         scale={[0.531, 2.549, 0.178]}
       />
       <mesh
-        castShadow
+          
         receiveShadow
         geometry={nodes.Cube270.geometry}
         material={materials['2000s black.001']}
@@ -3039,7 +3039,7 @@ export function Model(props) {
         scale={[0.531, 2.549, 0.178]}
       />
       <mesh
-        castShadow
+          
         receiveShadow
         geometry={nodes.Cube271.geometry}
         material={materials['2000s black.001']}
@@ -3048,7 +3048,7 @@ export function Model(props) {
         scale={[2.316, 2.434, 4.119]}
       />
       <mesh
-        castShadow
+          
         receiveShadow
         geometry={nodes.Cube272.geometry}
         material={materials['2000s black.001']}
@@ -3057,7 +3057,7 @@ export function Model(props) {
         scale={[2.316, 2.434, 4.119]}
       />
       <mesh
-        castShadow
+          
         receiveShadow
         geometry={nodes.Cube273.geometry}
         position={[-333.834, 0.216, -127.004]}
@@ -3066,7 +3066,7 @@ export function Model(props) {
       >
         <meshPhysicalMaterial
           color="#ffffff"
-          transmission={0.35}
+           
           emissive="#ffffff"
           emissiveIntensity={4}
           toneMapped={false}
@@ -3079,7 +3079,7 @@ export function Model(props) {
         />
       </mesh>
       <mesh
-        castShadow
+          
         receiveShadow
         geometry={nodes.Cube274.geometry}
         material={materials['2000s black.001']}
@@ -3088,7 +3088,7 @@ export function Model(props) {
         scale={[2.316, 2.434, 4.119]}
       />
       <mesh
-        castShadow
+          
         receiveShadow
         geometry={nodes.Cube275.geometry}
         position={[-333.834, 0.216, -127.004]}
@@ -3103,7 +3103,7 @@ export function Model(props) {
         />
       </mesh>
       <mesh
-        castShadow
+          
         receiveShadow
         geometry={nodes.Cube276.geometry}
         material={materials['2000s black.001']}
@@ -3112,7 +3112,7 @@ export function Model(props) {
         scale={[0.531, 2.549, 0.178]}
       />
       <mesh
-        castShadow
+          
         receiveShadow
         geometry={nodes.Cube277.geometry}
         position={[-302.435, 9.345, -192.479]}
@@ -3121,7 +3121,7 @@ export function Model(props) {
       >
         <meshPhysicalMaterial
           color="#ffffff"
-          transmission={0.35}
+           
           emissive="#ffffff"
           emissiveIntensity={4}
           toneMapped={false}
@@ -3134,7 +3134,7 @@ export function Model(props) {
         />
       </mesh>
       <mesh
-        castShadow
+          
         receiveShadow
         geometry={nodes.Cube278.geometry}
         material={nodes.Cube278.material}
@@ -3143,7 +3143,7 @@ export function Model(props) {
         scale={[0.531, 2.549, 0.178]}
       />
       <mesh
-        castShadow
+          
         receiveShadow
         geometry={nodes.Cube279.geometry}
         position={[-302.434, 9.345, -193.826]}
@@ -3152,7 +3152,7 @@ export function Model(props) {
       >
         <meshPhysicalMaterial
           color="#ffffff"
-          transmission={0.35}
+           
           emissive="#ffffff"
           emissiveIntensity={4}
           toneMapped={false}
@@ -3165,7 +3165,7 @@ export function Model(props) {
         />
       </mesh>
       <mesh
-        castShadow
+          
         receiveShadow
         geometry={nodes.Cube280.geometry}
         material={materials['2000s black.001']}
@@ -3174,7 +3174,7 @@ export function Model(props) {
         scale={[0.531, 2.549, 0.178]}
       />
       <mesh
-        castShadow
+          
         receiveShadow
         geometry={nodes.Cube281.geometry}
         material={materials['2000s black.001']}
@@ -3183,7 +3183,7 @@ export function Model(props) {
         scale={[0.531, 2.549, 0.178]}
       />
       <mesh
-        castShadow
+          
         receiveShadow
         geometry={nodes.Cube282.geometry}
         material={materials['Modern grey.001']}
@@ -3192,7 +3192,7 @@ export function Model(props) {
         scale={[2.316, 2.434, 4.119]}
       />
       <mesh
-        castShadow
+          
         receiveShadow
         geometry={nodes.Cube283.geometry}
         material={materials['2000s black.001']}
@@ -3201,7 +3201,7 @@ export function Model(props) {
         scale={[2.316, 2.434, 4.119]}
       />
       <mesh
-        castShadow
+          
         receiveShadow
         geometry={nodes.Cube284.geometry}
         position={[-321.739, -0.109, -177.747]}
@@ -3210,7 +3210,7 @@ export function Model(props) {
       >
         <meshPhysicalMaterial
           color="#ffffff"
-          transmission={0.35}
+           
           emissive="#ffffff"
           emissiveIntensity={4}
           toneMapped={false}
@@ -3223,7 +3223,7 @@ export function Model(props) {
         />
       </mesh>
       <mesh
-        castShadow
+          
         receiveShadow
         geometry={nodes.Cube285.geometry}
         material={materials['2000s black.001']}
@@ -3232,7 +3232,7 @@ export function Model(props) {
         scale={[2.316, 2.434, 4.119]}
       />
       <mesh
-        castShadow
+          
         receiveShadow
         geometry={nodes.Cube286.geometry}
         position={[-321.739, -0.109, -177.747]}
@@ -3247,7 +3247,7 @@ export function Model(props) {
         />
       </mesh>
       <mesh
-        castShadow
+          
         receiveShadow
         geometry={nodes.Cube287.geometry}
         material={materials['Pre 2000s blue']}
@@ -3256,7 +3256,7 @@ export function Model(props) {
         scale={[2.316, 2.434, 4.119]}
       />
       <mesh
-        castShadow
+          
         receiveShadow
         geometry={nodes.Cube288.geometry}
         material={materials['Material.005']}
@@ -3265,7 +3265,7 @@ export function Model(props) {
         scale={[2.316, 2.434, 4.119]}
       />
       <mesh
-        castShadow
+          
         receiveShadow
         geometry={nodes.Cube289.geometry}
         material={materials.Glass}
@@ -3274,7 +3274,7 @@ export function Model(props) {
         scale={[2.316, 2.434, 4.119]}
       />
       <mesh
-        castShadow
+          
         receiveShadow
         geometry={nodes.Cube290.geometry}
         material={materials['Pre 2000s blue']}
@@ -3283,7 +3283,7 @@ export function Model(props) {
         scale={[2.316, 2.434, 4.119]}
       />
       <mesh
-        castShadow
+          
         receiveShadow
         geometry={nodes.Cube291.geometry}
         material={materials['Creamy white.001']}
@@ -3292,7 +3292,7 @@ export function Model(props) {
         scale={[2.316, 2.434, 4.119]}
       />
       <mesh
-        castShadow
+          
         receiveShadow
         geometry={nodes.Cube297.geometry}
         material={materials['Material.004']}
@@ -3301,7 +3301,7 @@ export function Model(props) {
         scale={[2.316, 2.434, 4.119]}
       />
       <mesh
-        castShadow
+          
         receiveShadow
         geometry={nodes.Cube298.geometry}
         material={materials['2000s black.001']}
@@ -3310,7 +3310,7 @@ export function Model(props) {
         scale={[2.316, 2.434, 4.119]}
       />
       <mesh
-        castShadow
+          
         receiveShadow
         geometry={nodes.Cube299.geometry}
         position={[-311.33, -0.109, -163.119]}
@@ -3319,7 +3319,7 @@ export function Model(props) {
       >
         <meshPhysicalMaterial
           color="#ffffff"
-          transmission={0.35}
+           
           emissive="#ffffff"
           emissiveIntensity={4}
           toneMapped={false}
@@ -3332,7 +3332,7 @@ export function Model(props) {
         />
       </mesh>
       <mesh
-        castShadow
+          
         receiveShadow
         geometry={nodes.Cube300.geometry}
         material={materials['2000s black.001']}
@@ -3341,7 +3341,7 @@ export function Model(props) {
         scale={[2.316, 2.434, 4.119]}
       />
       <mesh
-        castShadow
+          
         receiveShadow
         geometry={nodes.Cube301.geometry}
         position={[-311.33, -0.109, -163.119]}
@@ -3356,7 +3356,7 @@ export function Model(props) {
         />
       </mesh>
       <mesh
-        castShadow
+          
         receiveShadow
         geometry={nodes.Cube308.geometry}
         material={materials['2000s black.001']}
@@ -3364,7 +3364,7 @@ export function Model(props) {
         scale={[0.531, 2.549, 0.178]}
       />
       <mesh
-        castShadow
+          
         receiveShadow
         geometry={nodes.Cube309.geometry}
         position={[-349.964, 9.345, -45.973]}
@@ -3372,7 +3372,7 @@ export function Model(props) {
       >
         <meshPhysicalMaterial
           color="#ffffff"
-          transmission={0.35}
+           
           emissive="#ffffff"
           emissiveIntensity={4}
           toneMapped={false}
@@ -3385,7 +3385,7 @@ export function Model(props) {
         />
       </mesh>
       <mesh
-        castShadow
+          
         receiveShadow
         geometry={nodes.Cube310.geometry}
         material={nodes.Cube310.material}
@@ -3393,7 +3393,7 @@ export function Model(props) {
         scale={[0.531, 2.549, 0.178]}
       />
       <mesh
-        castShadow
+          
         receiveShadow
         geometry={nodes.Cube311.geometry}
         position={[-351.311, 9.345, -45.973]}
@@ -3401,7 +3401,7 @@ export function Model(props) {
       >
         <meshPhysicalMaterial
           color="#ffffff"
-          transmission={0.35}
+           
           emissive="#ffffff"
           emissiveIntensity={4}
           toneMapped={false}
@@ -3414,7 +3414,7 @@ export function Model(props) {
         />
       </mesh>
       <mesh
-        castShadow
+          
         receiveShadow
         geometry={nodes.Cube312.geometry}
         material={materials['2000s black.001']}
@@ -3422,7 +3422,7 @@ export function Model(props) {
         scale={[0.531, 2.549, 0.178]}
       />
       <mesh
-        castShadow
+          
         receiveShadow
         geometry={nodes.Cube313.geometry}
         material={materials['2000s black.001']}
@@ -3430,7 +3430,7 @@ export function Model(props) {
         scale={[0.531, 2.549, 0.178]}
       />
       <mesh
-        castShadow
+          
         receiveShadow
         geometry={nodes.Cylinder003.geometry}
         material={nodes.Cylinder003.material}
@@ -3439,7 +3439,7 @@ export function Model(props) {
         scale={2.319}
       />
       <mesh
-        castShadow
+          
         receiveShadow
         geometry={nodes.Cylinder004.geometry}
         material={nodes.Cylinder004.material}
@@ -3448,7 +3448,7 @@ export function Model(props) {
         scale={2.319}
       />
       <mesh
-        castShadow
+          
         receiveShadow
         geometry={nodes.Cylinder005.geometry}
         material={nodes.Cylinder005.material}
@@ -3457,7 +3457,7 @@ export function Model(props) {
         scale={2.319}
       />
       <mesh
-        castShadow
+          
         receiveShadow
         geometry={nodes.Cylinder006.geometry}
         material={nodes.Cylinder006.material}
@@ -3466,7 +3466,7 @@ export function Model(props) {
         scale={2.319}
       />
       <mesh
-        castShadow
+          
         receiveShadow
         geometry={nodes.Cylinder008.geometry}
         material={nodes.Cylinder008.material}
@@ -3475,7 +3475,7 @@ export function Model(props) {
         scale={2.319}
       />
       <mesh
-        castShadow
+          
         receiveShadow
         geometry={nodes.Hide_004.geometry}
         material={materials['house brown wood']}
@@ -3484,7 +3484,7 @@ export function Model(props) {
         scale={[10, 3.5, 3.143]}
       />
       <mesh
-        castShadow
+          
         receiveShadow
         geometry={nodes.Hide_005.geometry}
         material={materials['house brown wood']}
@@ -3493,7 +3493,7 @@ export function Model(props) {
         scale={[10, 3.5, 3.143]}
       />
       <mesh
-        castShadow
+          
         receiveShadow
         geometry={nodes.Hide_006.geometry}
         material={materials['Black wood']}
@@ -3502,7 +3502,7 @@ export function Model(props) {
         scale={[10, 3.5, 3.143]}
       />
       <mesh
-        castShadow
+          
         receiveShadow
         geometry={nodes.Hide_007.geometry}
         material={materials['Black wood 2']}
@@ -3511,7 +3511,7 @@ export function Model(props) {
         scale={[10, 3.5, 3.143]}
       />
       <mesh
-        castShadow
+          
         receiveShadow
         geometry={nodes.Hide_008.geometry}
         material={materials['Black wood']}
@@ -3520,7 +3520,7 @@ export function Model(props) {
         scale={[10, 3.5, 3.143]}
       />
       <mesh
-        castShadow
+          
         receiveShadow
         geometry={nodes.Hide_009.geometry}
         material={materials['Black wood 2']}
@@ -3529,7 +3529,7 @@ export function Model(props) {
         scale={[10, 3.5, 3.143]}
       />
       <mesh
-        castShadow
+          
         receiveShadow
         geometry={nodes.Plane001.geometry}
         material={materials.Concrete}
@@ -3537,7 +3537,7 @@ export function Model(props) {
         scale={[16.904, 16.904, 13.482]}
       />
       <mesh
-        castShadow
+          
         receiveShadow
         geometry={nodes.Plane002.geometry}
         material={materials.Road}
@@ -3545,7 +3545,7 @@ export function Model(props) {
         scale={[168.518, 1, 9.85]}
       />
       <mesh
-        castShadow
+          
         receiveShadow
         geometry={nodes.Plane004.geometry}
         material={materials.Concrete}
@@ -3553,7 +3553,7 @@ export function Model(props) {
         scale={[16.904, 16.904, 13.482]}
       />
       <mesh
-        castShadow
+          
         receiveShadow
         geometry={nodes.Plane005.geometry}
         material={materials.Concrete}
@@ -3561,7 +3561,7 @@ export function Model(props) {
         scale={[16.904, 16.904, 13.482]}
       />
       <mesh
-        castShadow
+          
         receiveShadow
         geometry={nodes.Plane006.geometry}
         material={materials.Concrete}
@@ -3569,7 +3569,7 @@ export function Model(props) {
         scale={[16.904, 16.904, 13.482]}
       />
       <mesh
-        castShadow
+          
         receiveShadow
         geometry={nodes.Plane007.geometry}
         material={materials.Concrete}
@@ -3577,7 +3577,7 @@ export function Model(props) {
         scale={[16.904, 16.904, 13.482]}
       />
       <mesh
-        castShadow
+          
         receiveShadow
         geometry={nodes.Plane008.geometry}
         material={materials.Concrete}
@@ -3586,7 +3586,7 @@ export function Model(props) {
         scale={[16.904, 16.904, 13.482]}
       />
       <mesh
-        castShadow
+          
         receiveShadow
         geometry={nodes.Plane009.geometry}
         material={materials.Concrete}
@@ -3594,7 +3594,7 @@ export function Model(props) {
         scale={[16.904, 16.904, 13.482]}
       />
       <mesh
-        castShadow
+          
         receiveShadow
         geometry={nodes.Plane010.geometry}
         material={materials.Concrete}
@@ -3603,7 +3603,7 @@ export function Model(props) {
         scale={[16.904, 16.904, 13.482]}
       />
       <mesh
-        castShadow
+          
         receiveShadow
         geometry={nodes.Plane011.geometry}
         material={materials.Concrete}
@@ -3612,7 +3612,7 @@ export function Model(props) {
         scale={[16.904, 16.904, 13.482]}
       />
       <mesh
-        castShadow
+          
         receiveShadow
         geometry={nodes.Plane012.geometry}
         material={materials.Concrete}
@@ -3620,7 +3620,7 @@ export function Model(props) {
         scale={[16.904, 16.904, 13.482]}
       />
       <mesh
-        castShadow
+          
         receiveShadow
         geometry={nodes.Plane013.geometry}
         material={materials.Road}
@@ -3639,13 +3639,13 @@ export function Model(props) {
         rotation={[0, 1.522, 0]}
         scale={[0.607, 1.835, 0.607]}>
         <mesh
-          castShadow
+            
           receiveShadow
           geometry={nodes.Cube380.geometry}
         >
           <meshPhysicalMaterial
             color="#ffffff"
-            transmission={0.35}
+             
             emissive="#ffffff"
             emissiveIntensity={4}
             toneMapped={false}
@@ -3658,19 +3658,19 @@ export function Model(props) {
           />
         </mesh>
         <mesh
-          castShadow
+            
           receiveShadow
           geometry={nodes.Cube380_1.geometry}
           material={materials['og material']}
         />
         <mesh
-          castShadow
+            
           receiveShadow
           geometry={nodes.Cube380_2.geometry}
           material={materials['pre 2000s yellow']}
         />
         <mesh
-          castShadow
+            
           receiveShadow
           geometry={nodes.Cube380_3.geometry}
           material={materials['Material.004']}
@@ -3678,13 +3678,13 @@ export function Model(props) {
       </group>
       <group position={[-180.615, 1.946, 1.247]} scale={[0.607, 1.835, 0.607]}>
         <mesh
-          castShadow
+            
           receiveShadow
           geometry={nodes.Cube244_1.geometry}
         >
           <meshPhysicalMaterial
             color="#ffffff"
-            transmission={0.35}
+             
             emissive="#ff8a24"
             emissiveIntensity={2}
             toneMapped={false}
@@ -3697,19 +3697,19 @@ export function Model(props) {
           />
         </mesh>
         <mesh
-          castShadow
+            
           receiveShadow
           geometry={nodes.Cube244_2.geometry}
           material={materials['og material']}
         />
         <mesh
-          castShadow
+            
           receiveShadow
           geometry={nodes.Cube244_3.geometry}
           material={materials['pre 2000s yellow']}
         />
         <mesh
-          castShadow
+            
           receiveShadow
           geometry={nodes.Cube244_4.geometry}
           material={materials['Material.004']}
@@ -3720,13 +3720,13 @@ export function Model(props) {
         rotation={[Math.PI, -1.522, Math.PI]}
         scale={[0.607, 1.835, 0.607]}>
         <mesh
-          castShadow
+            
           receiveShadow
           geometry={nodes.Cube395.geometry}
         >
           <meshPhysicalMaterial
             color="#ffffff"
-            transmission={0.35}
+             
             emissive="#ffffff"
             emissiveIntensity={4}
             toneMapped={false}
@@ -3739,19 +3739,19 @@ export function Model(props) {
           />
         </mesh>
         <mesh
-          castShadow
+            
           receiveShadow
           geometry={nodes.Cube395_1.geometry}
           material={materials['og material']}
         />
         <mesh
-          castShadow
+            
           receiveShadow
           geometry={nodes.Cube395_2.geometry}
           material={materials['pre 2000s yellow']}
         />
         <mesh
-          castShadow
+            
           receiveShadow
           geometry={nodes.Cube395_3.geometry}
           material={materials['Material.004']}
@@ -3762,13 +3762,13 @@ export function Model(props) {
         rotation={[0, -0.055, 0]}
         scale={[0.607, 1.835, 0.607]}>
         <mesh
-          castShadow
+            
           receiveShadow
           geometry={nodes.Cube510.geometry}
         >
           <meshPhysicalMaterial
             color="#ffffff"
-            transmission={0.35}
+             
             emissive="#ffffff"
             emissiveIntensity={4}
             toneMapped={false}
@@ -3781,19 +3781,19 @@ export function Model(props) {
           />
         </mesh>
         <mesh
-          castShadow
+            
           receiveShadow
           geometry={nodes.Cube510_1.geometry}
           material={materials['og material']}
         />
         <mesh
-          castShadow
+            
           receiveShadow
           geometry={nodes.Cube510_2.geometry}
           material={materials['pre 2000s yellow']}
         />
         <mesh
-          castShadow
+            
           receiveShadow
           geometry={nodes.Cube510_3.geometry}
           material={materials['Material.004']}
@@ -3801,13 +3801,13 @@ export function Model(props) {
       </group>
       <group position={[-232.943, 1.946, 1.357]} scale={[0.607, 1.835, 0.607]}>
         <mesh
-          castShadow
+            
           receiveShadow
           geometry={nodes.Cube313_1.geometry}
         >
           <meshPhysicalMaterial
             color="#ffffff"
-            transmission={0.35}
+             
             emissive="#ff8a24"
             emissiveIntensity={2}
             toneMapped={false}
@@ -3820,19 +3820,19 @@ export function Model(props) {
           />
         </mesh>
         <mesh
-          castShadow
+            
           receiveShadow
           geometry={nodes.Cube313_2.geometry}
           material={materials['og material']}
         />
         <mesh
-          castShadow
+            
           receiveShadow
           geometry={nodes.Cube313_3.geometry}
           material={materials['pre 2000s yellow']}
         />
         <mesh
-          castShadow
+            
           receiveShadow
           geometry={nodes.Cube313_4.geometry}
           material={materials['Material.004']}
@@ -3840,13 +3840,13 @@ export function Model(props) {
       </group>
       <group position={[-277.65, 1.946, -21.745]} scale={[0.607, 1.835, 0.607]}>
         <mesh
-          castShadow
+            
           receiveShadow
           geometry={nodes.Cube314.geometry}
         >
           <meshPhysicalMaterial
             color="#ffffff"
-            transmission={0.35}
+             
             emissive="#ff8a24"
             emissiveIntensity={2}
             toneMapped={false}
@@ -3859,26 +3859,26 @@ export function Model(props) {
           />
         </mesh>
         <mesh
-          castShadow
+            
           receiveShadow
           geometry={nodes.Cube314_1.geometry}
           material={materials['og material']}
         />
         <mesh
-          castShadow
+            
           receiveShadow
           geometry={nodes.Cube314_2.geometry}
           material={materials['pre 2000s yellow']}
         />
         <mesh
-          castShadow
+            
           receiveShadow
           geometry={nodes.Cube314_3.geometry}
           material={materials['Material.004']}
         />
       </group>
       <mesh
-        castShadow
+          
         receiveShadow
         geometry={nodes.Unhide012.geometry}
         material={nodes.Unhide012.material}
@@ -3887,7 +3887,7 @@ export function Model(props) {
         scale={[2.316, 2.434, 4.119]}
       />
       <mesh
-        castShadow
+          
         receiveShadow
         geometry={nodes.Unhide013.geometry}
         material={materials['Creamy white.001']}
@@ -3896,7 +3896,7 @@ export function Model(props) {
         scale={[2.316, 2.434, 4.119]}
       />
       <mesh
-        castShadow
+          
         receiveShadow
         geometry={nodes.Unhide014.geometry}
         material={nodes.Unhide014.material}
@@ -3905,7 +3905,7 @@ export function Model(props) {
         scale={[2.316, 2.434, 4.119]}
       />
       <mesh
-        castShadow
+          
         receiveShadow
         geometry={nodes.Unhide015.geometry}
         material={materials['Creamy white.001']}
@@ -3914,7 +3914,7 @@ export function Model(props) {
         scale={[2.316, 2.434, 4.119]}
       />
       <mesh
-        castShadow
+          
         receiveShadow
         geometry={nodes.Unhide016.geometry}
         material={nodes.Unhide016.material}
@@ -3923,7 +3923,7 @@ export function Model(props) {
         scale={[2.316, 2.434, 4.119]}
       />
       <mesh
-        castShadow
+          
         receiveShadow
         geometry={nodes.Unhide017.geometry}
         material={materials['Creamy white.001']}
@@ -3932,7 +3932,7 @@ export function Model(props) {
         scale={[2.316, 2.434, 4.119]}
       />
       <mesh
-        castShadow
+          
         receiveShadow
         geometry={nodes.Unhide018.geometry}
         material={nodes.Unhide018.material}
@@ -3941,7 +3941,7 @@ export function Model(props) {
         scale={[2.316, 2.434, 4.119]}
       />
       <mesh
-        castShadow
+          
         receiveShadow
         geometry={nodes.Unhide019.geometry}
         material={materials['Creamy white.001']}
@@ -3950,7 +3950,7 @@ export function Model(props) {
         scale={[2.316, 2.434, 4.119]}
       />
       <mesh
-        castShadow
+          
         receiveShadow
         geometry={nodes.Unhide020.geometry}
         material={nodes.Unhide020.material}
@@ -3959,7 +3959,7 @@ export function Model(props) {
         scale={[2.316, 2.434, 4.119]}
       />
       <mesh
-        castShadow
+          
         receiveShadow
         geometry={nodes.Unhide021.geometry}
         material={materials['Creamy white.001']}
@@ -3968,7 +3968,7 @@ export function Model(props) {
         scale={[2.316, 2.434, 4.119]}
       />
       <mesh
-        castShadow
+          
         receiveShadow
         geometry={nodes.Unhide022.geometry}
         material={nodes.Unhide022.material}
@@ -3977,7 +3977,7 @@ export function Model(props) {
         scale={[2.316, 2.434, 4.119]}
       />
       <mesh
-        castShadow
+          
         receiveShadow
         geometry={nodes.Unhide023.geometry}
         material={materials['2000s black.001']}
@@ -3986,7 +3986,7 @@ export function Model(props) {
         scale={[2.316, 2.434, 4.119]}
       />
       <mesh
-        castShadow
+          
         receiveShadow
         geometry={nodes.Unhide024.geometry}
         material={nodes.Unhide024.material}
@@ -3995,7 +3995,7 @@ export function Model(props) {
         scale={[2.316, 2.434, 4.119]}
       />
       <mesh
-        castShadow
+          
         receiveShadow
         geometry={nodes.Unhide025.geometry}
         material={materials['2000s black.001']}
@@ -4004,7 +4004,7 @@ export function Model(props) {
         scale={[2.316, 2.434, 4.119]}
       />
       <mesh
-        castShadow
+          
         receiveShadow
         geometry={nodes.Unhide026.geometry}
         material={nodes.Unhide026.material}
@@ -4013,7 +4013,7 @@ export function Model(props) {
         scale={[2.316, 2.434, 4.119]}
       />
       <mesh
-        castShadow
+          
         receiveShadow
         geometry={nodes.Unhide027.geometry}
         material={materials['2000s black.001']}
@@ -4022,7 +4022,7 @@ export function Model(props) {
         scale={[2.316, 2.434, 4.119]}
       />
       <mesh
-        castShadow
+          
         receiveShadow
         geometry={nodes.Unhide028.geometry}
         material={nodes.Unhide028.material}
@@ -4031,7 +4031,7 @@ export function Model(props) {
         scale={[2.316, 2.434, 4.119]}
       />
       <mesh
-        castShadow
+          
         receiveShadow
         geometry={nodes.Unhide029.geometry}
         material={materials['2000s black.001']}
@@ -4040,7 +4040,7 @@ export function Model(props) {
         scale={[2.316, 2.434, 4.119]}
       />
       <mesh
-        castShadow
+          
         receiveShadow
         geometry={nodes.Unhide030.geometry}
         material={nodes.Unhide030.material}
@@ -4049,7 +4049,7 @@ export function Model(props) {
         scale={[2.316, 2.434, 4.119]}
       />
       <mesh
-        castShadow
+          
         receiveShadow
         geometry={nodes.Unhide031.geometry}
         material={materials['2000s black.001']}
@@ -4058,7 +4058,7 @@ export function Model(props) {
         scale={[2.316, 2.434, 4.119]}
       />
       <mesh
-        castShadow
+          
         receiveShadow
         geometry={nodes.Unhide032.geometry}
         material={nodes.Unhide032.material}
@@ -4067,7 +4067,7 @@ export function Model(props) {
         scale={[2.316, 2.434, 4.119]}
       />
       <mesh
-        castShadow
+          
         receiveShadow
         geometry={nodes.Unhide033.geometry}
         material={materials['2000s black.001']}
@@ -4076,7 +4076,7 @@ export function Model(props) {
         scale={[2.316, 2.434, 4.119]}
       />
       <mesh
-        castShadow
+          
         receiveShadow
         geometry={nodes.Unhide034.geometry}
         material={nodes.Unhide034.material}
@@ -4085,7 +4085,7 @@ export function Model(props) {
         scale={[2.316, 2.434, 4.119]}
       />
       <mesh
-        castShadow
+          
         receiveShadow
         geometry={nodes.Unhide035.geometry}
         material={materials['Creamy white.001']}
@@ -4094,7 +4094,7 @@ export function Model(props) {
         scale={[2.316, 2.434, 4.119]}
       />
       <mesh
-        castShadow
+          
         receiveShadow
         geometry={nodes.Unhide038.geometry}
         material={nodes.Unhide038.material}
@@ -4103,7 +4103,7 @@ export function Model(props) {
         scale={[2.316, 2.434, 4.119]}
       />
       <mesh
-        castShadow
+          
         receiveShadow
         geometry={nodes.Unhide039.geometry}
         material={materials['2000s black.001']}

@@ -8,7 +8,8 @@ export default function App() {
     <BrowserRouter>
       <nav className="nav-bar">
         <ul className="nav-links">
-          <li><a href="/#drone-experience">MENU</a></li>
+          <li><NavLink to="/">LOSS OF COLOR</NavLink></li>
+          <li><NavLink to="/drone">DRONE EXPERIENCE</NavLink></li>
         </ul>
       </nav>
 
