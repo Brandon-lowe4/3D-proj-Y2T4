@@ -5,9 +5,9 @@ import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import Scene from "./scene.jsx";
 import { Html } from "@react-three/drei";
-
-
+import { useLocation, Link } from "react-router-dom";
 gsap.registerPlugin(ScrollTrigger)
+ScrollTrigger.clearScrollMemory("manual");
 
 function HomePage() {
   const mainRef = useRef(null);
@@ -24,6 +24,13 @@ function HomePage() {
   const [whiteProgress, setWhiteProgress] = useState(0);
   const scene5Ref = useRef(null);
   const [greyProgress, setGreyProgress] = useState(0);
+
+    useEffect(() => {
+    if ("scrollRestoration" in window.history) {
+      window.history.scrollRestoration = "manual";
+    }
+    window.scrollTo(0, 0);
+  }, []);
 
   useEffect(() => {
     const createTextEntrance = (
@@ -340,7 +347,7 @@ function HomePage() {
                 <span className="highlight-letter-L">0</span>
                 <span className="highlight-letter-O">0</span>
                 <span className="highlight-letter-R">s</span>
-                </h1>
+              </h1>
             </div>
           </div>
           <div className="hero-image">
@@ -397,10 +404,10 @@ function HomePage() {
       <section className="scene-2">
         <div className="scene-2-sticky">
           <h2 ref={finalTextRef}>Now you know how colour has evolved from the pre 2000s into the 2000s. Click on the {" "}
-            <a className="highlight-word-drone" href="#drone-experience">
+            <a className="highlight-word-drone" href="/drone">
               DRONE EXPERIENCE
             </a>
-            {" "}button at the top of the screen
+            {" "}button at the top of the screen for the first person experience
 
           </h2>
         </div>
