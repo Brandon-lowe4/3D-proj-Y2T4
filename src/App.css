@@ -151,6 +151,15 @@ p {
 
 .hero .hero-image {
   margin-bottom: 15vh;
+  width: 100vw;
+  left: 0;
+}
+
+.hero .hero-image img {
+  display: block;
+  width: 100%;
+  height: auto;
+  left: 0;
 }
 
 .text-container {
@@ -513,4 +522,13 @@ p {
     padding: 1rem 1.25rem;
   }
 
+}
+
+
+.site-wrapper {
+  width: 1440px;
+  height: 1024px;
+  transform-origin: top left;
+  /* Calculate scale based on viewport size */
+  transform: scale(calc(100vw / 1440)); 
 }
