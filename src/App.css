@@ -133,8 +133,9 @@ p {
 .pre-2000s-sticky .hero-image {
   left: 0;
   width: 100%;
-  bottom: 0;
+  bottom: 0vh;
   margin-bottom: 0;
+
 }
 
 .pre-2000s-sticky .hero-image img {
@@ -528,10 +529,3 @@ p {
 }
 
 
-.site-wrapper {
-  width: 1440px;
-  height: 1024px;
-  transform-origin: top left;
-  /* Calculate scale based on viewport size */
-  transform: scale(calc(100vw / 1440)); 
-}
